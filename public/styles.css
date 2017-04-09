@@ -436,6 +436,10 @@ body {
     background-color: lavender;
 }
 
+#offline {
+    background-color: teal !important;
+}
+
 p {
     margin: .25em
 }
