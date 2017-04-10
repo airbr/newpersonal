@@ -433,7 +433,15 @@ body {
     text-align: center;
     font-family: sans-serif;
     font-size: .9em;
-    background-color: teal;
+    background-color: #00508F;
+    background: -moz-linear-gradient(45deg, #00508F 0%, #ffffff 100%);
+    background: -webkit-linear-gradient(45deg, #00508F 0%, #ffffff 100%);
+    background: -o-linear-gradient(45deg, #00508F 0%, #ffffff 100%);
+    background: -ms-linear-gradient(45deg, #00508F 0%, #ffffff 100%);
+    background: linear-gradient(45deg, #00508F 0%, #ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00508F', endColorstr='#ffffff', GradientType=1);
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 #offline {
