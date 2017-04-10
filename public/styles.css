@@ -441,6 +441,7 @@ body {
     background: linear-gradient(45deg, #00508F 0%, #ffffff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00508F', endColorstr='#ffffff', GradientType=1);
     background-size: 100%;
+    background-attachment: fixed;
 }
 
 #offline {
