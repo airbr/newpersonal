@@ -1,9 +1,10 @@
 {
   "name": "Morgan Murrah",
-  "short_name": "MorganWebDev",
+  "short_name": "Morgan",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "linear-gradient(45deg, #00508F 0%, #ffffff 100%)",
+  "background_color": "#00508F",
+  "theme_color": "#00508F",
   "description": "Morgan Murrah's personal website",
   "icons": [{
     "src": "images/touch/homescreen48.png",
