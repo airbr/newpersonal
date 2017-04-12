@@ -8,6 +8,11 @@
   "description": "Morgan Murrah's personal website",
   "icons": [
     {
+      "src": "/144-face.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
       "src": "/android-chrome-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
