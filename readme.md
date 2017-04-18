@@ -14,7 +14,7 @@
 
 ![](readme-assets/desktopmain.png)
 
-##### On Android
+##### Mobile (Android, Chrome Browser):
 
 ![](readme-assets/androidmain.png)
 
@@ -31,7 +31,14 @@
  
  * On the fun side, the website has a very basic Service Worker enabling it for offline use (See: [github.com/airbr/wifiserviceworker](https://github.com/airbr/wifiServiceWorker). You can try it yourself by visiting my website offline and after refreshing your cache. The website should load with a blank screen (Im working on something fun for this)
  
-  Update:
+  
+  Development:
+  -- 
+  ###### V 2.0:
+  
+   Added Adobe (for link to PDF Resume), Skype icon from this great SVG collection h/t: [SuperTinySocialIcons ](https://github.com/edent/SuperTinySocialIcons/). Removed Paypal icon. Various other changes. 
+  
+  ###### V 1.x
   
   # WOOHOO!
   After a few tries - my first test score was 69-  I made enough changes including add splash screen details and theme details for mobile users who might wish to save it to homescreen and wallah!
