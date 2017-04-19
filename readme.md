@@ -10,13 +10,9 @@
 
 #### Screenshots
 
-##### Desktop
-
-![](readme-assets/desktopmain.png)
-
 ##### Mobile (Android, Chrome Browser):
 
-![](readme-assets/androidmain.png)
+![](readme-assets/mobilemain.png)
 
 ##### Also see: Add to Homescreen functionality via manifest.json:
 
