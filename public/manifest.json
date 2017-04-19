@@ -3,8 +3,8 @@
   "short_name": "Morgan",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#00508F",
-  "theme_color": "#00508F",
+  "background_color": "orange",
+  "theme_color": "orangered",
   "description": "Morgan Murrah's personal website",
   "icons": [
     {
