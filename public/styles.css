@@ -464,7 +464,9 @@ p {
     -ms-flex: 1;
     flex: 1
 }
-
+.icon:hover {
+    transform: scale(1.05);
+}
 .icon svg {
     max-width: 85%
 }
