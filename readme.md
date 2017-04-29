@@ -30,6 +30,11 @@
   
   Development:
   -- 
+  
+  ###### V 2.1:
+  
+	Cleaned up Aria tags and actually tested website using ChromeVox Screenreader. Also added some basic [Firebase Functions functionality](https://github.com/firebase/functions-samples/tree/master/quickstarts/time-server).  
+  
   ###### V 2.0:
   
    Added Adobe (for link to PDF Resume), Skype icon from this great SVG collection h/t: [SuperTinySocialIcons ](https://github.com/edent/SuperTinySocialIcons/). Removed Paypal icon. Various other changes. 
