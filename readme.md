@@ -31,15 +31,17 @@
   Development:
   -- 
   
-  ###### V 2.1:
+###### V 2.1:
   
-	Cleaned up Aria tags and actually tested website using ChromeVox Screenreader. Also added some basic [Firebase Functions functionality](https://github.com/firebase/functions-samples/tree/master/quickstarts/time-server).  
+Cleaned up Aria tags and actually tested website using ChromeVox Screenreader. Also added some basic [Firebase Functions functionality](https://github.com/firebase/functions-samples/tree/master/quickstarts/time-server).
+
+Time on the server now accessible - `curl https://us-central1-my-blog-at-morganwebdev.cloudfunctions.net/date`  
   
-  ###### V 2.0:
+###### V 2.0:
   
    Added Adobe (for link to PDF Resume), Skype icon from this great SVG collection h/t: [SuperTinySocialIcons ](https://github.com/edent/SuperTinySocialIcons/). Removed Paypal icon. Various other changes. 
   
-  ###### V 1.x
+###### V 1.x
   
   # WOOHOO!
   After a few tries - my first test score was 69-  I made enough changes including add splash screen details and theme details for mobile users who might wish to save it to homescreen and wallah!
