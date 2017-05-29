@@ -4,7 +4,10 @@ var webpack = require('webpack')
 var config = require('../config/index')
 var merge = require('webpack-merge')
 var baseWebpackConfig = require('./webpack.base.conf')
+
+// Used to copy static assets
 var CopyWebpackPlugin = require('copy-webpack-plugin')
+
 var HtmlWebpackPlugin = require('html-webpack-plugin')
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
 var OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
