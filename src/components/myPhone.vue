@@ -16,7 +16,7 @@
                 <p class="p-note"><span itemprop="jobTitle">Web Developer</span> - <span
                         itemprop="worksFor"> Freelance </span></p>
                 <p title="I am an American New Zealander" lang="mi">tēnā koutou - Greetings to you all</p>
-                <div><a href="vCard.vcf" class="download">Download my contact details.</a></div>
+                <div><a href="/static/vCard.vcf" class="download">Download my contact details.</a></div>
 
                 <!--Row 1-->
 
