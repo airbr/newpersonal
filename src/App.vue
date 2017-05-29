@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header>
-      <span>Morgan Murrah</span>
+      <span>*</span>
     </header>
     <main>
       <!--<img src="./assets/logo.png" alt="Vue.js PWA">-->
