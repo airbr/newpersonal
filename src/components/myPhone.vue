@@ -227,7 +227,7 @@
                     </a></div>
 
                     <div class="icon">
-                        <a href="lighthouse/morganwebdev.com_2017-04-18_17-27-17.html">
+                        <a href="/static/lighthouse/morganwebdev.com_2017-04-18_17-27-17.html">
                             <figure>
                                 <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                                     <path d="m71 460-41-460h451l-41 460-185 52" fill="#e34f26"/>
@@ -313,7 +313,7 @@
                         <figure>
                             <svg version="1.1" role="img" aria-labelledby="blog-title" class="square"
                                  viewBox="0 0 512 512">
-                                <title id="blog-title">My Bootstrap Blog</title>
+                                <title id="blog-title">My (Old) Blog</title>
                                 <g>
                                     <rect height="100%" width="100%" rx="15%" ry="15%"/>
                                     <g>
