@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <header>
-      <span>*</span>
+        <!--TODO: Add Button/ Spinner for Orientation-->
+        <span>Morgan Murrah's personal website</span>
     </header>
     <main>
       <!--<img src="./assets/logo.png" alt="Vue.js PWA">-->

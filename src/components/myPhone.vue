@@ -10,8 +10,9 @@
             <div itemscope itemtype="http://schema.org/Person" class="h-card" rel="me">
 
                 <!--<h1 itemprop="name" class="p-name" role="heading">Morgan Murrah</h1>-->
-                <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span
-                        itemprop="addressLocality">Atlanta, Georgia</span>,
+
+                <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <span itemprop="addressLocality">Atlanta, Georgia</span>,
                     <span itemprop="addressCountry">USA</span></p>
                 <p class="p-note"><span itemprop="jobTitle">Web Developer</span> - <span
                         itemprop="worksFor"> Freelance </span></p>
@@ -195,7 +196,7 @@
 
                 <div class="row" role="group">
 
-                    <div class="icon"><a href="https://www.instagram.com/bmmurrah/" itemprop="sameAs" target="_self"></a>
+                    <div class="icon"><a href="https://www.instagram.com/bmmurrah/">
                         <figure>
                             <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                                 <rect height="512" rx="15%" width="512"/>
