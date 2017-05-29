@@ -134,7 +134,7 @@
                             <figure>
                                 <svg version="1.1" role="img" aria-labelledby="title" class="square"
                                      viewBox="0 0 512 512"
-                                     style="background: url(/flagimg.png); background-size: auto 100%;">
+                                     style="background: url(static/flagimg.png); background-size: auto 100%;">
                                 </svg>
                                 <figcaption role="icon">US/NZ Dual Citizen</figcaption>
                             </figure>
@@ -412,6 +412,6 @@
     }
 
     a {
-        color: #42b983;
+        color: white;
     }
 </style>
