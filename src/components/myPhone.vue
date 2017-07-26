@@ -1,21 +1,21 @@
 <template>
 
-    <div class="marvel-device htc-one">
+    <div id="mobile-query" class="marvel-device htc-one">
+
         <div class="top-bar"></div>
         <div class="camera"></div>
         <div class="sensor"></div>
         <div class="speaker"></div>
         <div class="screen">
-            <!--TODO: schema.org tags study-->
             <div itemscope itemtype="http://schema.org/Person" class="h-card" rel="me">
 
                 <!--<h1 itemprop="name" class="p-name" role="heading">Morgan Murrah</h1>-->
 
                 <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                    <span itemprop="addressLocality">Atlanta, Georgia</span>,
+                    <span itemprop="addressLocality">Atlanta  Asheville </span>,
                     <span itemprop="addressCountry">USA</span></p>
                 <p class="p-note"><span itemprop="jobTitle">Web Developer</span> - <span
-                        itemprop="worksFor"> Freelance </span></p>
+                        itemprop="worksFor"> EasyRx LLC </span></p>
                 <p title="I am an American New Zealander" lang="mi">tēnā koutou - Greetings to you all</p>
                 <div><a href="/static/vCard.vcf" class="download">Download my contact details.</a></div>
 
