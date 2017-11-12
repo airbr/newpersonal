@@ -2,7 +2,7 @@
   <div id="app">
     <header>
         <!--TODO: Add Button/ Spinner for Orientation-->
-        <span>Morgan Murrah - Web Developer</span>
+        <span>Morgan Murrah</span>
     </header>
     <main>
       <!--<img src="./assets/logo.png" alt="Vue.js PWA">-->

@@ -1,21 +1,22 @@
 <template>
 
-    <div id="mobile-query" class="marvel-device htc-one">
+    <div id="mobile-query" class="marvel-device macbook">
 
         <div class="top-bar"></div>
         <div class="camera"></div>
         <div class="sensor"></div>
         <div class="speaker"></div>
         <div class="screen">
+            <!--TODO: schema.org tags study-->
             <div itemscope itemtype="http://schema.org/Person" class="h-card" rel="me">
 
                 <!--<h1 itemprop="name" class="p-name" role="heading">Morgan Murrah</h1>-->
 
                 <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                    <span itemprop="addressLocality">Atlanta / Asheville </span>,
+                    <span itemprop="addressLocality">Atlanta, Georgia</span>,
                     <span itemprop="addressCountry">USA</span></p>
                 <p class="p-note"><span itemprop="jobTitle">Web Developer</span> - <span
-                        itemprop="worksFor"> EasyRx LLC </span></p>
+                        itemprop="worksFor"> Freelance </span></p>
                 <p title="I am an American New Zealander" lang="mi">tēnā koutou - Greetings to you all</p>
                 <div><a href="/static/vCard.vcf" class="download">Download my contact details.</a></div>
 
@@ -65,7 +66,7 @@
                     </a></div>
 
                     <div class="icon">
-                        <a href="https://drive.google.com/file/d/1sB1DJyUod62083oUBLDpJU70xZxyinCI/view?usp=sharing">
+                        <a href="https://drive.google.com/open?id=0Bw7af740VxuEMmIyaE9jTWNpbEk">
                             <figure>
                                 <svg version="1.1" role="img" aria-labelledby="title" class="square"
                                      viewBox="0 0 512 512">
@@ -231,7 +232,7 @@
                     </a></div>
 
                     <div class="icon">
-                        <a href="/static/lighthouse/morganwebdev.com_2017-11-05_12-24-46.report.html">
+                        <a href="/static/lighthouse/morganwebdev.com_2017-04-18_17-27-17.html">
                             <figure>
                                 <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                                     <path d="m71 460-41-460h451l-41 460-185 52" fill="#e34f26"/>
