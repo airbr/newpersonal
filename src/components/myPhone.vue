@@ -292,11 +292,11 @@
 
                 <div class="row" role="group">
 
-                    <div class="icon"><a href="https://api.whatsapp.com/send?phone=14049162630">
+                    <div class="icon"><a href="#">
                         <figure>
-                            <svg version="1.1" role="img" aria-labelledby="whatsapp-title" class="square"
+                            <svg version="1.1" role="img" aria-labelledby="blank-title" class="square"
                                  viewBox="0 0 512 512">
-                                <title id="whatsapp-title">WhatsApp</title>
+                                <title id="blank-title">---</title>
                                 <g>
                                     <rect height="100%" width="100%" rx="15%" ry="15%" style="fill:	#f9c013;"/>
                                     <g>
