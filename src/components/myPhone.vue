@@ -63,9 +63,9 @@
                     </a></div>
 
                     <div class="icon">
-                        <a href="https://drive.google.com/file/d/1d6SVe6WaKCZ-T2TH_hvrJG-bWERNoOd0/view?usp=sharing">
+                        <a href="https://drive.google.com/file/d/1qMdFDK-AURhVY3nBvUkr9oen80jBs0vg/view?usp=sharing">
                             <figure>
-                                <svg version="1.1" role="img" aria-labelledby="title" class="square"
+                                <svg  version="1.1" role="img" aria-labelledby="title" class="square"
                                      viewBox="0 0 512 512">
                                     <title id="title"></title>
                                     <g>
@@ -265,7 +265,7 @@
 
                     <div class="icon"><a href="https://twitter.com/atlbridge" itemprop="sameAs" rel="me" class="u-url">
                     <figure>
-                    <svg version="1.1" role="img" aria-labelledby="twitter-title" class="square"
+                    <svg aria-label="twitter" version="1.1" role="img" aria-labelledby="twitter-title" class="square"
                     viewBox="0 0 512 512">
                     <title id="twitter-title">Twitter</title>
                     <g>
