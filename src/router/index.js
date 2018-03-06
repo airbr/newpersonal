@@ -11,5 +11,10 @@ export default new Router({
       name: 'myPhone',
       component: myPhone
     }
+    // {
+    //   path: '/macbook',
+    //   name: 'myDesktop',
+    //   component: myDesktop
+    // }
   ]
 })

@@ -11,5 +11,11 @@ new Vue({
   el: '#app',
   router,
   template: '<App/>',
-  components: { App }
+  components: {App}
 })
+
+if (window.matchMedia('(min-width: 400px)').matches) {
+  console.log('over 400')
+} else {
+  console.log('less than 400')
+}

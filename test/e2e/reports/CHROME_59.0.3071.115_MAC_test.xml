@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="test"
+    errors="0" failures="1" hostname="" id="" package="test" skipped="0"
+    tests="1" time="3.820" timestamp="Wed, 26 Jul 2017 23:30:26 GMT">
+  
+    <testcase name="default e2e tests" classname="test" time="3.820" assertions="2">
+
+      <failure message="Testing if element &lt;.p-name&gt; is present.">    at Object.defaultE2eTests [as default e2e tests] (/Users/dev/webprojects/newpersonal/test/e2e/specs/test.js:14:15)
+    at _combinedTickCallback (internal/process/next_tick.js:95:7)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
