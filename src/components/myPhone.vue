@@ -20,7 +20,7 @@
                 <!--Row 1-->
 
                 <div class="row" role="group">
-                    <div class="icon"><a href="https://www.google.com/search?tbm=isch&q=Morgan%20Murrah"
+                    <div class="icon"><a href="https://txt.fyi/+/a10c9e74/"
                                          class="square u-photo">
                         <figure>
                             <svg version="1.1" role="img" aria-labelledby="avatar-title" class="square"
@@ -65,7 +65,7 @@
                     <div class="icon">
                         <a href="https://drive.google.com/file/d/1qMdFDK-AURhVY3nBvUkr9oen80jBs0vg/view?usp=sharing">
                             <figure>
-                                <svg  version="1.1" role="img" aria-labelledby="title" class="square"
+                                <svg version="1.1" role="img" aria-labelledby="title" class="square"
                                      viewBox="0 0 512 512">
                                     <title id="title"></title>
                                     <g>
@@ -264,24 +264,25 @@
 
 
                     <div class="icon"><a href="https://twitter.com/atlbridge" itemprop="sameAs" rel="me" class="u-url">
-                    <figure>
-                    <svg aria-label="twitter" version="1.1" role="img" aria-labelledby="twitter-title" class="square"
-                    viewBox="0 0 512 512">
-                    <title id="twitter-title">Twitter</title>
-                    <g>
-                    <rect
-                    height="100%"
-                    width="100%"
-                    rx="15%"
-                    ry="15%" style="fill:#00ABF1;"/>
-                    <g transform="matrix(1.5,0,0,1.5,-550,-675)">
-                    <path d="m 679.333,552.19 c -10.375,4.604 -21.521,7.711 -33.224,9.111 11.939,-7.16 21.114,-18.501 25.436,-32.004 -11.178,6.63 -23.563,11.439 -36.744,14.035 -10.547,-11.246 -25.588,-18.269 -42.223,-18.269 -31.953,0 -57.859,25.906 -57.859,57.855 0,4.533 0.513,8.946 1.501,13.186 -48.085,-2.419 -90.71,-25.446 -119.245,-60.454 -4.981,8.545 -7.833,18.48 -7.833,29.089 0,20.072 10.21,37.777 25.735,48.152 -9.479,-0.302 -18.398,-2.902 -26.204,-7.234 -0.003,0.238 -0.003,0.482 -0.003,0.726 0,28.029 19.944,51.41 46.407,56.734 -4.855,1.315 -9.968,2.027 -15.238,2.027 -3.733,0 -7.354,-0.373 -10.883,-1.041 7.36,22.98 28.728,39.709 54.039,40.176 -19.795,15.52 -44.742,24.77 -71.854,24.77 -4.665,0 -9.27,-0.275 -13.799,-0.816 25.609,16.422 56.018,26.001 88.688,26.001 106.412,0 164.606,-88.156 164.606,-164.606 0,-2.514 -0.058,-5.007 -0.165,-7.49 11.295,-8.159 21.11,-18.344 28.862,-29.948 l 0,0 z"
-                    style="fill:#ffffff"/>
-                    </g>
-                    </g>
-                    </svg>
-                    <figcaption role="icon">Twitter</figcaption>
-                    </figure>
+                        <figure>
+                            <svg aria-label="twitter" version="1.1" role="img" aria-labelledby="twitter-title"
+                                 class="square"
+                                 viewBox="0 0 512 512">
+                                <title id="twitter-title">Twitter</title>
+                                <g>
+                                    <rect
+                                            height="100%"
+                                            width="100%"
+                                            rx="15%"
+                                            ry="15%" style="fill:#00ABF1;"/>
+                                    <g transform="matrix(1.5,0,0,1.5,-550,-675)">
+                                        <path d="m 679.333,552.19 c -10.375,4.604 -21.521,7.711 -33.224,9.111 11.939,-7.16 21.114,-18.501 25.436,-32.004 -11.178,6.63 -23.563,11.439 -36.744,14.035 -10.547,-11.246 -25.588,-18.269 -42.223,-18.269 -31.953,0 -57.859,25.906 -57.859,57.855 0,4.533 0.513,8.946 1.501,13.186 -48.085,-2.419 -90.71,-25.446 -119.245,-60.454 -4.981,8.545 -7.833,18.48 -7.833,29.089 0,20.072 10.21,37.777 25.735,48.152 -9.479,-0.302 -18.398,-2.902 -26.204,-7.234 -0.003,0.238 -0.003,0.482 -0.003,0.726 0,28.029 19.944,51.41 46.407,56.734 -4.855,1.315 -9.968,2.027 -15.238,2.027 -3.733,0 -7.354,-0.373 -10.883,-1.041 7.36,22.98 28.728,39.709 54.039,40.176 -19.795,15.52 -44.742,24.77 -71.854,24.77 -4.665,0 -9.27,-0.275 -13.799,-0.816 25.609,16.422 56.018,26.001 88.688,26.001 106.412,0 164.606,-88.156 164.606,-164.606 0,-2.514 -0.058,-5.007 -0.165,-7.49 11.295,-8.159 21.11,-18.344 28.862,-29.948 l 0,0 z"
+                                              style="fill:#ffffff"/>
+                                    </g>
+                                </g>
+                            </svg>
+                            <figcaption role="icon">Twitter</figcaption>
+                        </figure>
                     </a></div>
                 </div>
 
@@ -297,7 +298,8 @@
                                 <g>
                                     <rect height="100%" width="100%" rx="15%" ry="15%" style="fill:	#182ef5;"/>
                                     <g>
-                                        <path fill="#fff" d="M182 56L56 185l57-3 102 126-12 68 75-77L456 456 300 281l78-83L303 216 182 105"/>
+                                        <path fill="#fff"
+                                              d="M182 56L56 185l57-3 102 126-12 68 75-77L456 456 300 281l78-83L303 216 182 105"/>
                                     </g>
                                 </g>
                             </svg>
@@ -381,18 +383,6 @@
     </div>
 
 </template>
-
-
-<!--<script>-->
-    <!--export default {-->
-        <!--name: 'hello',-->
-        <!--data () {-->
-            <!--return {-->
-                <!--msg: 'Welcome to Your Vue.js PWA&#45;&#45;&#45;&#45;'-->
-            <!--}-->
-        <!--}-->
-    <!--}-->
-<!--</script>-->
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
