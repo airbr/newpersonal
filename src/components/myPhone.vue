@@ -20,7 +20,7 @@
                 <!--Row 1-->
 
                 <div class="row" role="group">
-                    <div class="icon"><a href="https://txt.fyi/+/a10c9e74/"
+                    <div class="icon"><a href="https://txt.fyi/+/0a6e9c59/"
                                          class="square u-photo">
                         <figure>
                             <svg version="1.1" role="img" aria-labelledby="avatar-title" class="square"
@@ -35,7 +35,7 @@
                         "></image>
                                 </g>
                             </svg>
-                            <figcaption role="icon">Morgan Murrah</figcaption>
+                            <figcaption role="icon">Status Update</figcaption>
                         </figure>
                     </a></div>
 
