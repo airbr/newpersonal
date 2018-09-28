@@ -10,7 +10,7 @@
             <div itemscope itemtype="http://schema.org/Person" class="h-card" rel="me">
 
                 <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                    <span itemprop="addressLocality">Atlanta</span>,
+                    <span itemprop="addressLocality">Bellingham, WA</span>,
                     <span itemprop="addressCountry">USA</span></p>
                 <p class="p-note"><span itemprop="jobTitle">Web Developer</span> - <span
                         itemprop="worksFor"> EasyRx LLC </span></p>
@@ -20,7 +20,7 @@
                 <!--Row 1-->
 
                 <div class="row" role="group">
-                    <div class="icon"><a href="https://txt.fyi/+/0a6e9c59/"
+                    <div class="icon"><a href="https://txt.fyi/+/95fdac76/"
                                          class="square u-photo">
                         <figure>
                             <svg version="1.1" role="img" aria-labelledby="avatar-title" class="square"
