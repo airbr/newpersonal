@@ -490,3 +490,5 @@ a {
 #desktop-query {
     display: none;
 }
+
+#slack rect {mix-blend-mode:multiply}
