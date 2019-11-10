@@ -39,48 +39,40 @@
                         </figure>
                     </a></div>
 
-                    <div class="icon"><a href="tel:+14049162630" itemprop="telephone" target="_self">
+                    <div class="icon"><a href="https://git-scm.com/" itemprop="telephone" target="_self">
                         <figure>
-                            <svg version="1.1" role="img" aria-labelledby="phone-title" class="square"
-                                 viewBox="0 0 512 512">
-                                <title id="phone-title">Call Morgan Murrah</title>
-                                <g>
-                                    <rect height="100%" width="100%" rx="15%" ry="15%" style="fill:#00FF00;"/>
-                                    <g transform="matrix(1.5,0,0,1.5,-120,-100)">
-                                        <path d="m 369.75,304.701 c -8.397,-6.76 -17.371,-12.828 -26.204,-19.027 -17.617,-12.373 -33.73,-13.334 -46.876,6.572 -7.382,11.176 -17.716,11.665 -28.521,6.762 -29.789,-13.506 -52.791,-34.318 -66.265,-64.595 -5.96,-13.395 -5.882,-25.405 8.064,-34.879 7.383,-5.01 14.822,-10.939 14.227,-21.887 -0.777,-14.275 -35.437,-61.981 -49.124,-67.016 -5.664,-2.084 -11.304,-1.949 -17.066,-0.012 -32.095,10.793 -45.388,37.188 -32.657,68.441 37.98,93.242 104.82,158.154 196.828,197.773 5.245,2.256 11.073,3.158 14.024,3.967 20.947,0.211 45.486,-19.971 52.573,-40 6.823,-19.269 -7.597,-26.918 -19.003,-36.099 z"
-                                              style="fill:#ffffff;"/>
-                                        <path d="m 266.586,120.19 c 67.264,10.344 98.285,42.328 106.851,110.076 0.794,6.258 -1.537,15.674 7.391,15.848 9.331,0.178 7.083,-9.099 7.161,-15.363 0.789,-63.806 -54.846,-122.957 -119.458,-125.138 -4.875,0.701 -14.962,-3.362 -15.591,7.564 -0.419,7.367 8.073,6.156 13.646,7.013 z"
-                                              style="fill:#ffffff;"/>
-                                        <path d="m 279.743,138.766 c -6.47,-0.779 -15.011,-3.828 -16.523,5.15 -1.578,9.422 7.941,8.465 14.058,9.834 41.544,9.285 56.009,24.406 62.849,65.615 0.999,6.008 -0.986,15.359 9.224,13.809 7.567,-1.152 4.834,-9.168 5.467,-13.85 0.335,-39.563 -33.567,-75.574 -75.075,-80.558 z"
-                                              style="fill:#ffffff;"/>
-                                        <path d="m 283.558,171.118 c -4.319,0.107 -8.558,0.574 -10.145,5.189 -2.384,6.898 2.631,8.543 7.736,9.363 17.042,2.736 26.011,12.785 27.713,29.779 0.46,4.613 3.387,8.35 7.843,7.824 6.174,-0.736 6.732,-6.232 6.543,-11.451 0.305,-19.093 -21.275,-41.161 -39.69,-40.704 z"
-                                              style="fill:#ffffff;"/>
-                                    </g>
-                                </g>
-                            </svg>
-                            <figcaption role="icon">+1 404 916 2630</figcaption>
+                          <svg xmlns="http://www.w3.org/2000/svg" aria-label="Git" role="img" viewBox="0 0 512 512">
+<rect width="512" height="512" rx="15%" fill="#fff"/>
+<path fill="#f05133" d="M440.8 238.9L273 71.2a24.7 24.7 0 0 0-35 0l-34.8 34.9 44.2 44.1a29.4 29.4 0 0 1 37.2 37.5l42.5 42.5a29.4 29.4 0 1 1-17.6 16.6l-39.7-39.7v104.5a29.4 29.4 0 1 1-24.2-.9V205.3a29.4 29.4 0 0 1-16-38.6l-43.5-43.5-115 115a24.7 24.7 0 0 0 0 34.9L239 440.8a24.7 24.7 0 0 0 35 0l166.9-167a24.7 24.7 0 0 0 0-34.9"/></svg>
+                            <figcaption role="icon">Git</figcaption>
                         </figure>
                     </a></div>
 
-                    <div class="icon">
-                        <a href="https://drive.google.com/file/d/1qMdFDK-AURhVY3nBvUkr9oen80jBs0vg/view?usp=sharing">
-                            <figure>
-                                <svg version="1.1" role="img" aria-labelledby="title" class="square"
-                                     viewBox="0 0 512 512">
-                                    <title id="title"></title>
-                                    <g>
-                                        <rect height="100%" width="100%" rx="15%" ry="15%" style="fill:#FFFFFF;"/>
-                                        <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-                                            <rect fill="#f00" height="512" rx="15%" width="512"/>
-                                            <path d="m58 438c-16-49 67-105 116-119 19-35 37-74 49-107-27-43-32-96-23-125 8-25 34.1-43 56-22 13 12 16 39 13 79-1 16-6 38-16 64l70 86c41-4 109 1 129 35 6 10 5 21 0 30-12 20-35 22-57 19-24-3-51-23-83-57-41 3-81 9-120 20-16 30-50 88-77 105-18 11-48 19-57-8zm94-81c-29 13-58 41-67 59-10 22 10 13 16 8 19-15 42-51 51-66zm197-37c20 19 37 29 51 32 21 4 45-7 13-20-13-5-33-10-64-12zm-107-83c-9 23-20 48-33 72 24-6 58-13 81-13-16-19-32-39-48-59zm-16-142c-7 20-4 53 9 83 8-23 13-76 1-94-3-5-10 9-10 11z"
-                                                  fill="#fff"/>
-                                        </svg>
+               <div class="icon"><a href="https://linkedin.com/in/mmurrah/" itemprop="sameAs" rel="me"
+                                         class="u-url">
+                        <figure>
+                            <svg version="1.1" role="img" aria-labelledby="linkedin-title" class="square"
+                                 viewBox="0 0 512 512">
+                                <title id="linkedin-title">Linkedin</title>
+                                <g>
+                                    <rect
+                                            height="100%"
+                                            width="100%"
+                                            rx="15%"
+                                            ry="15%" style="fill:#0083be;"/>
+                                    <g id="g9-1" transform="matrix(1.5537946,0,0,1.5537946,-140.87332,-132.64552)">
+                                        <rect height="166.021"
+                                              style="fill:#ffffff" width="55" x="130" y="200"/>
+                                        <path d="m 157.927,120.303 c -18.884,0 -31.222,12.415 -31.222,28.687 0,15.93 11.963,28.687 30.491,28.687 h 0.357 c 19.245,0 31.224,-12.757 31.224,-28.687 -0.357,-16.272 -11.978,-28.687 -30.85,-28.687 z"
+                                              style="fill:#ffffff"/>
+                                        <path d="m 320.604,196.453 c -29.277,0 -42.391,16.101 -49.734,27.41 v -23.506 h -55.18 c 0.732,15.573 0,166.021 0,166.021 h 55.179 V 273.66 c 0,-4.963 0.357,-9.924 1.82,-13.471 3.982,-9.911 13.068,-20.178 28.313,-20.178 19.959,0 27.955,15.23 27.955,37.539 v 88.828 h 55.182 v -95.206 c 0,-50.996 -27.227,-74.719 -63.535,-74.719 z"
+                                              style="fill:#ffffff"/>
                                     </g>
-                                </svg>
-                                <figcaption role="icon">PDF Resume</figcaption>
-                            </figure>
-                        </a>
-                    </div>
+                                </g>
+                            </svg>
+                            <figcaption role="icon">LinkedIn</figcaption>
+                        </figure>
+                    </a></div>
 
 
                     <div class="icon"><a href="mailto:morgan@easyrxortho.com" itemprop="email" rel="me" class="u-email"
@@ -111,7 +103,7 @@
                         <figure>
                             <svg version="1.1" role="img" aria-labelledby="stackoverflow-title" class="square"
                                  viewBox="0 0 512 512">
-                                <title id="stackoverflow-title">Where I learn to code</title>
+                                <title id="stackoverflow-title"></title>
                                 <g>
                                     <rect height="100%" width="100%" rx="15%" ry="15%" style="fill:#f37a20;"/>
                                     <g transform="matrix(1.5807476,0,0,1.5807476,-1690,-520)">
@@ -181,29 +173,11 @@
                     </a></div>
 
 
-                    <div class="icon"><a href="https://linkedin.com/in/mmurrah/" itemprop="sameAs" rel="me"
+                    <div class="icon"><a href="https://www.ecma-international.org/publications/standards/Ecma-262.htm" itemprop="sameAs" rel="me"
                                          class="u-url">
                         <figure>
-                            <svg version="1.1" role="img" aria-labelledby="linkedin-title" class="square"
-                                 viewBox="0 0 512 512">
-                                <title id="linkedin-title">Linkedin</title>
-                                <g>
-                                    <rect
-                                            height="100%"
-                                            width="100%"
-                                            rx="15%"
-                                            ry="15%" style="fill:#0083be;"/>
-                                    <g id="g9-1" transform="matrix(1.5537946,0,0,1.5537946,-140.87332,-132.64552)">
-                                        <rect height="166.021"
-                                              style="fill:#ffffff" width="55" x="130" y="200"/>
-                                        <path d="m 157.927,120.303 c -18.884,0 -31.222,12.415 -31.222,28.687 0,15.93 11.963,28.687 30.491,28.687 h 0.357 c 19.245,0 31.224,-12.757 31.224,-28.687 -0.357,-16.272 -11.978,-28.687 -30.85,-28.687 z"
-                                              style="fill:#ffffff"/>
-                                        <path d="m 320.604,196.453 c -29.277,0 -42.391,16.101 -49.734,27.41 v -23.506 h -55.18 c 0.732,15.573 0,166.021 0,166.021 h 55.179 V 273.66 c 0,-4.963 0.357,-9.924 1.82,-13.471 3.982,-9.911 13.068,-20.178 28.313,-20.178 19.959,0 27.955,15.23 27.955,37.539 v 88.828 h 55.182 v -95.206 c 0,-50.996 -27.227,-74.719 -63.535,-74.719 z"
-                                              style="fill:#ffffff"/>
-                                    </g>
-                                </g>
-                            </svg>
-                            <figcaption role="icon">LinkedIn</figcaption>
+                       <svg xmlns="http://www.w3.org/2000/svg" aria-label="JavaScript" role="img" viewBox="0 0 512 512"><rect width="512" height="512" rx="15%" fill="#f7df1e"/><path d="m324,370c10,17 24,29 47,29 20,0 33,-10 33,-24 0,-16 -13,-22 -35,-32l-12,-5c-35,-15 -58,-33 -58,-72 0,-36 27,-64 70,-64 31,0 53,11 68,39l-37,24c-8,-15 -17,-21 -31,-21 -14,0 -23,9 -23,21 0,14 9,20 30,29l12,5c41,18 64,35 64,76 0,43 -34,67 -80,67 -45,0 -74,-21 -88,-49zm-170,4c8,13 14,25 31,25 16,0 26,-6 26,-30V203h48v164c0,50 -29,72 -72,72 -39,0 -61,-20 -72,-44z"/></svg>
+                            <figcaption role="icon">JavaScript</figcaption>
                         </figure>
                     </a></div>
                 </div>
@@ -212,17 +186,10 @@
 
                 <div class="row" role="group">
 
-                    <div class="icon"><a href="https://www.instagram.com/mmurrah_usnz/">
+                    <div class="icon"><a href="https://dev.to/airbr">
                         <figure>
-                            <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-                                <rect height="512" rx="15%" width="512"/>
-                                <g stroke="#fff" stroke-width="36">
-                                    <rect height="364" rx="92" width="364" x="74" y="74"/>
-                                    <circle cx="256" cy="256" r="85"/>
-                                </g>
-                                <circle cx="362" cy="150" fill="red" r="24"/>
-                            </svg>
-                            <figcaption role="icon">Instagram</figcaption>
+                           <svg xmlns="http://www.w3.org/2000/svg" aria-label="dev.to" role="img" viewBox="0 0 512 512"><rect width="512" height="512" rx="15%"/><path d="m 140.47,203.94 h -17.44 v 104.47 h 17.45 c 10.15529,-0.54503 17.35752,-8.66899 17.47,-17.41 v -69.65 c -0.69578,-10.36382 -7.79596,-17.27188 -17.48,-17.41 z m 45.73,87.25 c 0,18.81 -11.61,47.31 -48.36,47.25 H 91.44 V 172.98 h 47.38 c 35.44,0 47.36,28.46 47.37,47.28 z M 286.88,202.53 H 233.6 v 38.42 h 32.57 v 29.57 H 233.6 v 38.41 h 53.29 v 29.57 h -62.18 c -11.16,0.29 -20.44,-8.53 -20.72,-19.69 V 193.7 c -0.27,-11.15 8.56,-20.41 19.71,-20.69 h 63.19 z m 103.64,115.29 c -13.2,30.75 -36.85,24.63 -47.44,0 l -38.53,-144.8 h 32.57 l 29.71,113.72 29.57,-113.72 h 32.58 z" fill="#fff"/></svg>
+                            <figcaption role="icon">Dev.to</figcaption>
                         </figure>
                     </a></div>
 

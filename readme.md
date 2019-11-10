@@ -1,14 +1,13 @@
 #### Morgan Murrah's personal website
 
- #### [Online at morganwebdev.com](https://morganwebdev.com) 
-* Local deployment: 
-  * `git clone https://github.com/airbr/newpersonal.git`
-  * `cd` `newpersonal`
-  * Serve the public contents, i.e. `npm install http-server; http-server ./public/`
-  * Visit address in browser i.e. 127.0.0.1:8080
-#### Screenshots
-![](readme-assets/update.png)
+### [Online at morganwebdev.com](https://morganwebdev.com) 
 
+Built with a fancy Vue CLI PWA template this really could just be a single page of HTML. That may be the next iteration.
+
+#### Screenshots
+![](readme-assets/updatedpersonal.png)
+
+* Check the `vue-cli.md` for instructions on running the dev environment.
 
 #### Summary
 
@@ -19,7 +18,6 @@
     
  * The focus is on giving clickable or pressable actions using just HTML as much as possible i.e. call my phone number with a compatible device/app on your system, click to see my Github. There are several ways to contact me and some bits of fun like Wikipedia articles about my American New Zealander heritage.
  
- 
  * I wanted it to be mobile friendly and this lead me to actually emulating a mobile phone with app-like buttons. See Credits for original CSS frame which provided a great mobile-first frame to work within.
  
  * On the fun side, the website has a very basic Service Worker enabling it for offline use (See: [github.com/airbr/wifiserviceworker](https://github.com/airbr/wifiServiceWorker). You can try it yourself by visiting my website offline and after refreshing your cache. The website should load with a blank screen (Im working on something fun for this)
@@ -27,6 +25,11 @@
   
   Development:
   -- 
+###### V 3.0:
+
+Made some changes to the Icons/ changed a few details.
+
+Thinking about removing the Vue CLI template entirely and just whittling it down to one special HTML page that is my precious. There is a lot going on here that I don't use, its really just some great use of HTML5 and SVG tiny icons it accomplishes all I need it to.
   
 ###### V 2.2:
   Just an update of a few addresses and icons. New color gradient. 
@@ -47,7 +50,7 @@ Cleaned up Aria tags and actually tested website using ChromeVox Screenreader. A
 
 * Version control - Git. I.e this repository! 
 * HTML5 - Schema.org/person markup
-* SVG - My first time, largely working from examples.
+* SVG - My first time, largely working from examples. [SVG Super Tiny Icons](https://github.com/edent/SuperTinyIcons)
 * CSS3 - [Normalize](https://necolas.github.io/normalize.css/). Flexbox for handling rows in phone.
 * Deployment-  Firebase Hosting which provisioned security certificates making it HTTPS enabled i.e. the nice green lock. Used with my custom domain provided by [iwantmyname.com](iwantmyname.com)
 
