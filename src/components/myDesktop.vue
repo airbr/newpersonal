@@ -1,16 +1,17 @@
 <template>
 
-    <div id="mobile-query" class="marvel-device macbook">
+    <div id="mobile-query" class="marvel-device macbook" style="display:flex; justify-content: center">
 
         <div class="top-bar"></div>
         <div class="camera"></div>
         <div class="sensor"></div>
         <div class="speaker"></div>
-        <div class="screen">
+        <div>
+        <div class="screen" style="width: 450px;">
             <!--TODO: schema.org tags study-->
-            <div itemscope itemtype="http://schema.org/Person" class="h-card" rel="me">
+            <div itemscope  itemtype="http://schema.org/Person" class="" h-cardrel="me" >
 
-                <!--<h1 itemprop="name" class="p-name" role="heading">Morgan Murrah</h1>-->
+                <!-- <h1 itemprop="name" class="p-name" role="heading">Morgan Murrah</h1> -->
 
                 <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                     <span itemprop="addressLocality">Atlanta, Georgia</span>,
@@ -20,10 +21,10 @@
                 <p title="I am an American New Zealander" lang="mi">tēnā koutou - Greetings to you all</p>
                 <div><a href="/static/vCard.vcf" class="download">Download my contact details.</a></div>
 
-                <!--Row 1-->
+                 <!--Row 1-->
 
                 <div class="row" role="group">
-                    <div class="icon"><a href="https://www.google.com/search?tbm=isch&q=Morgan%20Murrah"
+                    <div class="icon"><a href="https://txt.fyi/+/95fdac76/"
                                          class="square u-photo">
                         <figure>
                             <svg version="1.1" role="img" aria-labelledby="avatar-title" class="square"
@@ -38,55 +39,47 @@
                         "></image>
                                 </g>
                             </svg>
-                            <figcaption role="icon">Morgan Murrah</figcaption>
+                            <figcaption role="icon">Status Update</figcaption>
                         </figure>
                     </a></div>
 
-                    <div class="icon"><a href="tel:+14049162630" itemprop="telephone" target="_self">
+                    <div class="icon"><a href="https://git-scm.com/" itemprop="telephone" target="_self">
                         <figure>
-                            <svg version="1.1" role="img" aria-labelledby="phone-title" class="square"
+                          <svg xmlns="http://www.w3.org/2000/svg" aria-label="Git" role="img" viewBox="0 0 512 512">
+<rect width="512" height="512" rx="15%" fill="#fff"/>
+<path fill="#f05133" d="M440.8 238.9L273 71.2a24.7 24.7 0 0 0-35 0l-34.8 34.9 44.2 44.1a29.4 29.4 0 0 1 37.2 37.5l42.5 42.5a29.4 29.4 0 1 1-17.6 16.6l-39.7-39.7v104.5a29.4 29.4 0 1 1-24.2-.9V205.3a29.4 29.4 0 0 1-16-38.6l-43.5-43.5-115 115a24.7 24.7 0 0 0 0 34.9L239 440.8a24.7 24.7 0 0 0 35 0l166.9-167a24.7 24.7 0 0 0 0-34.9"/></svg>
+                            <figcaption role="icon">Git</figcaption>
+                        </figure>
+                    </a></div>
+
+               <div class="icon"><a href="https://linkedin.com/in/mmurrah/" itemprop="sameAs" rel="me"
+                                         class="u-url">
+                        <figure>
+                            <svg version="1.1" role="img" aria-labelledby="linkedin-title" class="square"
                                  viewBox="0 0 512 512">
-                                <title id="phone-title">Call Morgan Murrah</title>
+                                <title id="linkedin-title">Linkedin</title>
                                 <g>
-                                    <rect height="100%" width="100%" rx="15%" ry="15%" style="fill:#00FF00;"/>
-                                    <g transform="matrix(1.5,0,0,1.5,-120,-100)">
-                                        <path d="m 369.75,304.701 c -8.397,-6.76 -17.371,-12.828 -26.204,-19.027 -17.617,-12.373 -33.73,-13.334 -46.876,6.572 -7.382,11.176 -17.716,11.665 -28.521,6.762 -29.789,-13.506 -52.791,-34.318 -66.265,-64.595 -5.96,-13.395 -5.882,-25.405 8.064,-34.879 7.383,-5.01 14.822,-10.939 14.227,-21.887 -0.777,-14.275 -35.437,-61.981 -49.124,-67.016 -5.664,-2.084 -11.304,-1.949 -17.066,-0.012 -32.095,10.793 -45.388,37.188 -32.657,68.441 37.98,93.242 104.82,158.154 196.828,197.773 5.245,2.256 11.073,3.158 14.024,3.967 20.947,0.211 45.486,-19.971 52.573,-40 6.823,-19.269 -7.597,-26.918 -19.003,-36.099 z"
-                                              style="fill:#ffffff;"/>
-                                        <path d="m 266.586,120.19 c 67.264,10.344 98.285,42.328 106.851,110.076 0.794,6.258 -1.537,15.674 7.391,15.848 9.331,0.178 7.083,-9.099 7.161,-15.363 0.789,-63.806 -54.846,-122.957 -119.458,-125.138 -4.875,0.701 -14.962,-3.362 -15.591,7.564 -0.419,7.367 8.073,6.156 13.646,7.013 z"
-                                              style="fill:#ffffff;"/>
-                                        <path d="m 279.743,138.766 c -6.47,-0.779 -15.011,-3.828 -16.523,5.15 -1.578,9.422 7.941,8.465 14.058,9.834 41.544,9.285 56.009,24.406 62.849,65.615 0.999,6.008 -0.986,15.359 9.224,13.809 7.567,-1.152 4.834,-9.168 5.467,-13.85 0.335,-39.563 -33.567,-75.574 -75.075,-80.558 z"
-                                              style="fill:#ffffff;"/>
-                                        <path d="m 283.558,171.118 c -4.319,0.107 -8.558,0.574 -10.145,5.189 -2.384,6.898 2.631,8.543 7.736,9.363 17.042,2.736 26.011,12.785 27.713,29.779 0.46,4.613 3.387,8.35 7.843,7.824 6.174,-0.736 6.732,-6.232 6.543,-11.451 0.305,-19.093 -21.275,-41.161 -39.69,-40.704 z"
-                                              style="fill:#ffffff;"/>
+                                    <rect
+                                            height="100%"
+                                            width="100%"
+                                            rx="15%"
+                                            ry="15%" style="fill:#0083be;"/>
+                                    <g id="g9-1" transform="matrix(1.5537946,0,0,1.5537946,-140.87332,-132.64552)">
+                                        <rect height="166.021"
+                                              style="fill:#ffffff" width="55" x="130" y="200"/>
+                                        <path d="m 157.927,120.303 c -18.884,0 -31.222,12.415 -31.222,28.687 0,15.93 11.963,28.687 30.491,28.687 h 0.357 c 19.245,0 31.224,-12.757 31.224,-28.687 -0.357,-16.272 -11.978,-28.687 -30.85,-28.687 z"
+                                              style="fill:#ffffff"/>
+                                        <path d="m 320.604,196.453 c -29.277,0 -42.391,16.101 -49.734,27.41 v -23.506 h -55.18 c 0.732,15.573 0,166.021 0,166.021 h 55.179 V 273.66 c 0,-4.963 0.357,-9.924 1.82,-13.471 3.982,-9.911 13.068,-20.178 28.313,-20.178 19.959,0 27.955,15.23 27.955,37.539 v 88.828 h 55.182 v -95.206 c 0,-50.996 -27.227,-74.719 -63.535,-74.719 z"
+                                              style="fill:#ffffff"/>
                                     </g>
                                 </g>
                             </svg>
-                            <figcaption role="icon">+1 404 916 2630</figcaption>
+                            <figcaption role="icon">LinkedIn</figcaption>
                         </figure>
                     </a></div>
 
-                    <div class="icon">
-                        <a href="https://drive.google.com/open?id=0Bw7af740VxuEMmIyaE9jTWNpbEk">
-                            <figure>
-                                <svg version="1.1" role="img" aria-labelledby="title" class="square"
-                                     viewBox="0 0 512 512">
-                                    <title id="title"></title>
-                                    <g>
-                                        <rect height="100%" width="100%" rx="15%" ry="15%" style="fill:#FFFFFF;"/>
-                                        <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-                                            <rect fill="#f00" height="512" rx="15%" width="512"/>
-                                            <path d="m58 438c-16-49 67-105 116-119 19-35 37-74 49-107-27-43-32-96-23-125 8-25 34.1-43 56-22 13 12 16 39 13 79-1 16-6 38-16 64l70 86c41-4 109 1 129 35 6 10 5 21 0 30-12 20-35 22-57 19-24-3-51-23-83-57-41 3-81 9-120 20-16 30-50 88-77 105-18 11-48 19-57-8zm94-81c-29 13-58 41-67 59-10 22 10 13 16 8 19-15 42-51 51-66zm197-37c20 19 37 29 51 32 21 4 45-7 13-20-13-5-33-10-64-12zm-107-83c-9 23-20 48-33 72 24-6 58-13 81-13-16-19-32-39-48-59zm-16-142c-7 20-4 53 9 83 8-23 13-76 1-94-3-5-10 9-10 11z"
-                                                  fill="#fff"/>
-                                        </svg>
-                                    </g>
-                                </svg>
-                                <figcaption role="icon">PDF Resume</figcaption>
-                            </figure>
-                        </a>
-                    </div>
 
-
-                    <div class="icon"><a href="mailto:morgan@morganwebdev.com" itemprop="email" rel="me" class="u-email"
+                    <div class="icon"><a href="mailto:morgan@easyrxortho.com" itemprop="email" rel="me" class="u-email"
                                          target="_self">
                         <figure>
                             <svg version="1.1" role="img" aria-labelledby="work-email-title" class="square"
@@ -109,27 +102,45 @@
                 <!--Row 2-->
 
                 <div class="row" role="group">
-                    <div class="icon"><a href="https://twitter.com/atlbridge" itemprop="sameAs" rel="me" class="u-url">
+                    <div class="icon"><a href="https://stackoverflow.com/users/6598884/morganwebdev" itemprop="sameAs"
+                                         rel="me" class="u-url">
                         <figure>
-                            <svg version="1.1" role="img" aria-labelledby="twitter-title" class="square"
+                            <svg version="1.1" role="img" aria-labelledby="stackoverflow-title" class="square"
                                  viewBox="0 0 512 512">
-                                <title id="twitter-title">Twitter</title>
+                                <title id="stackoverflow-title"></title>
                                 <g>
-                                    <rect
-                                            height="100%"
-                                            width="100%"
-                                            rx="15%"
-                                            ry="15%" style="fill:#00ABF1;"/>
-                                    <g transform="matrix(1.5,0,0,1.5,-550,-675)">
-                                        <path d="m 679.333,552.19 c -10.375,4.604 -21.521,7.711 -33.224,9.111 11.939,-7.16 21.114,-18.501 25.436,-32.004 -11.178,6.63 -23.563,11.439 -36.744,14.035 -10.547,-11.246 -25.588,-18.269 -42.223,-18.269 -31.953,0 -57.859,25.906 -57.859,57.855 0,4.533 0.513,8.946 1.501,13.186 -48.085,-2.419 -90.71,-25.446 -119.245,-60.454 -4.981,8.545 -7.833,18.48 -7.833,29.089 0,20.072 10.21,37.777 25.735,48.152 -9.479,-0.302 -18.398,-2.902 -26.204,-7.234 -0.003,0.238 -0.003,0.482 -0.003,0.726 0,28.029 19.944,51.41 46.407,56.734 -4.855,1.315 -9.968,2.027 -15.238,2.027 -3.733,0 -7.354,-0.373 -10.883,-1.041 7.36,22.98 28.728,39.709 54.039,40.176 -19.795,15.52 -44.742,24.77 -71.854,24.77 -4.665,0 -9.27,-0.275 -13.799,-0.816 25.609,16.422 56.018,26.001 88.688,26.001 106.412,0 164.606,-88.156 164.606,-164.606 0,-2.514 -0.058,-5.007 -0.165,-7.49 11.295,-8.159 21.11,-18.344 28.862,-29.948 l 0,0 z"
-                                              style="fill:#ffffff"/>
+                                    <rect height="100%" width="100%" rx="15%" ry="15%" style="fill:#f37a20;"/>
+                                    <g transform="matrix(1.5807476,0,0,1.5807476,-1690,-520)">
+                                        <rect height="21.336" style="fill:#ffffff;fill-opacity:1" width="99.906998"
+                                              x="1162.9312" y="562.14398"/>
+                                        <rect height="21.338608" style="fill:#ffffff;fill-opacity:1"
+                                              transform="matrix(0.17099512,0.98527188,-0.98527188,0.17099512,0,0)"
+                                              width="99.903854" x="583.38794" y="-1231.6235"/>
+                                        <polygon id="polygon10"
+                                                 points="191.668,291.191 291.147,300.357 289.189,321.6 189.709,312.44 "
+                                                 style="fill:#ffffff;fill-opacity:1"
+                                                 transform="translate(974.0981,234.40296)"/>
+                                        <rect height="21.337666" style="fill:#ffffff;fill-opacity:1"
+                                              transform="matrix(0.96571514,0.25960407,-0.25960407,0.96571514,0,0)"
+                                              width="99.903435" x="1259.8923" y="159.36772"/>
+                                        <polygon id="polygon14"
+                                                 points="224.254,197.353 310.304,248.107 299.464,266.484 213.408,215.727 "
+                                                 style="fill:#ffffff;fill-opacity:1"
+                                                 transform="translate(974.0981,234.40296)"/>
+                                        <polygon id="polygon16"
+                                                 points="275.116,150.619 331.403,233.161 313.776,245.178 257.485,162.641 "
+                                                 style="fill:#ffffff;fill-opacity:1"
+                                                 transform="translate(974.0981,234.40296)"/>
+                                        <polygon id="polygon18"
+                                                 points="157.776,382.5 162.758,382.5 322.5,382.5 322.5,382.836 322.5,377.852 322.5,278.5 305.5,278.5 305.5,366.5 174.5,366.5 174.5,278.5 157.5,278.5 157.5,382.5"
+                                                 style="fill:#ffffff;" transform="translate(974.0981,234.40296)"/>
                                     </g>
                                 </g>
                             </svg>
-                            <figcaption role="icon">Twitter</figcaption>
+                            <figcaption role="icon">Stack Overflow</figcaption>
                         </figure>
-                    </a></div>
-
+                    </a>
+                    </div>
 
                     <div class="icon">
                         <a href="https://en.wikipedia.org/wiki/American_New_Zealanders">
@@ -166,29 +177,11 @@
                     </a></div>
 
 
-                    <div class="icon"><a href="https://linkedin.com/in/mmurrah/" itemprop="sameAs" rel="me"
+                    <div class="icon"><a href="https://www.ecma-international.org/publications/standards/Ecma-262.htm" itemprop="sameAs" rel="me"
                                          class="u-url">
                         <figure>
-                            <svg version="1.1" role="img" aria-labelledby="linkedin-title" class="square"
-                                 viewBox="0 0 512 512">
-                                <title id="linkedin-title">Linkedin</title>
-                                <g>
-                                    <rect
-                                            height="100%"
-                                            width="100%"
-                                            rx="15%"
-                                            ry="15%" style="fill:#0083be;"/>
-                                    <g id="g9-1" transform="matrix(1.5537946,0,0,1.5537946,-140.87332,-132.64552)">
-                                        <rect height="166.021"
-                                              style="fill:#ffffff" width="55" x="130" y="200"/>
-                                        <path d="m 157.927,120.303 c -18.884,0 -31.222,12.415 -31.222,28.687 0,15.93 11.963,28.687 30.491,28.687 h 0.357 c 19.245,0 31.224,-12.757 31.224,-28.687 -0.357,-16.272 -11.978,-28.687 -30.85,-28.687 z"
-                                              style="fill:#ffffff"/>
-                                        <path d="m 320.604,196.453 c -29.277,0 -42.391,16.101 -49.734,27.41 v -23.506 h -55.18 c 0.732,15.573 0,166.021 0,166.021 h 55.179 V 273.66 c 0,-4.963 0.357,-9.924 1.82,-13.471 3.982,-9.911 13.068,-20.178 28.313,-20.178 19.959,0 27.955,15.23 27.955,37.539 v 88.828 h 55.182 v -95.206 c 0,-50.996 -27.227,-74.719 -63.535,-74.719 z"
-                                              style="fill:#ffffff"/>
-                                    </g>
-                                </g>
-                            </svg>
-                            <figcaption role="icon">LinkedIn</figcaption>
+                       <svg xmlns="http://www.w3.org/2000/svg" aria-label="JavaScript" role="img" viewBox="0 0 512 512"><rect width="512" height="512" rx="15%" fill="#f7df1e"/><path d="m324,370c10,17 24,29 47,29 20,0 33,-10 33,-24 0,-16 -13,-22 -35,-32l-12,-5c-35,-15 -58,-33 -58,-72 0,-36 27,-64 70,-64 31,0 53,11 68,39l-37,24c-8,-15 -17,-21 -31,-21 -14,0 -23,9 -23,21 0,14 9,20 30,29l12,5c41,18 64,35 64,76 0,43 -34,67 -80,67 -45,0 -74,-21 -88,-49zm-170,4c8,13 14,25 31,25 16,0 26,-6 26,-30V203h48v164c0,50 -29,72 -72,72 -39,0 -61,-20 -72,-44z"/></svg>
+                            <figcaption role="icon">JavaScript</figcaption>
                         </figure>
                     </a></div>
                 </div>
@@ -197,42 +190,28 @@
 
                 <div class="row" role="group">
 
-                    <div class="icon"><a href="https://www.instagram.com/bmmurrah/">
+                    <div class="icon"><a href="https://dev.to/airbr">
                         <figure>
-                            <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-                                <rect height="512" rx="15%" width="512"/>
-                                <g stroke="#fff" stroke-width="36">
-                                    <rect height="364" rx="92" width="364" x="74" y="74"/>
-                                    <circle cx="256" cy="256" r="85"/>
-                                </g>
-                                <circle cx="362" cy="150" fill="red" r="24"/>
-                            </svg>
-                            <figcaption role="icon">Instagram</figcaption>
+                           <svg xmlns="http://www.w3.org/2000/svg" aria-label="dev.to" role="img" viewBox="0 0 512 512"><rect width="512" height="512" rx="15%"/><path d="m 140.47,203.94 h -17.44 v 104.47 h 17.45 c 10.15529,-0.54503 17.35752,-8.66899 17.47,-17.41 v -69.65 c -0.69578,-10.36382 -7.79596,-17.27188 -17.48,-17.41 z m 45.73,87.25 c 0,18.81 -11.61,47.31 -48.36,47.25 H 91.44 V 172.98 h 47.38 c 35.44,0 47.36,28.46 47.37,47.28 z M 286.88,202.53 H 233.6 v 38.42 h 32.57 v 29.57 H 233.6 v 38.41 h 53.29 v 29.57 h -62.18 c -11.16,0.29 -20.44,-8.53 -20.72,-19.69 V 193.7 c -0.27,-11.15 8.56,-20.41 19.71,-20.69 h 63.19 z m 103.64,115.29 c -13.2,30.75 -36.85,24.63 -47.44,0 l -38.53,-144.8 h 32.57 l 29.71,113.72 29.57,-113.72 h 32.58 z" fill="#fff"/></svg>
+                            <figcaption role="icon">Dev.to</figcaption>
                         </figure>
                     </a></div>
 
-                    <div class="icon"><a href="http://a.co/0ihJaqs">
+                    <div class="icon"><a href="https://bellingham.codes">
                         <figure>
-                            <svg version="1.1" role="img" aria-labelledby="amazon-title" class="square"
-                                 viewBox="0 0 512 512">
-                                <title id="amazon-title">Buy me a gift from Amazon</title>
-                                <g>
-                                    <rect
-                                            height="100%"
-                                            width="100%"
-                                            rx="15%"
-                                            ry="15%" style="fill:#fe9900;"/>
-                                    <path
-                                            d="m 292.57775,183.82384 c -9.682,0.765 -20.8526,1.50176 -32.0209,3.00609 -17.12,2.21157 -34.2401,5.21893 -48.3861,11.90753 -27.5437,11.208 -46.1631,35.05257 -46.1631,70.11413 0,44.01691 28.2985,66.3546 64.0264,66.3546 11.9305,0 21.606,-1.46582 30.5228,-3.70947 14.1563,-4.48217 26.0703,-12.66996 40.2086,-27.59641 8.1929,11.20542 10.4135,16.42821 24.575,28.3383 3.7249,1.50176 7.4484,1.50176 10.4134,-0.74189 8.9322,-7.45874 24.5609,-20.87316 32.773,-28.33061 3.7107,-3.01121 2.956,-7.46258 0.7394,-11.20413 -8.1981,-10.43401 -16.3808,-19.40092 -16.3808,-39.50651 v -67.13116 c 0,-28.35883 2.2141,-54.45348 -18.6141,-73.82231 -17.1226,-15.686316 -43.9297,-21.641996 -64.7694,-21.641996 -2.9907,0 -5.9493,0 -8.9476,0 -37.965,2.24621 -78.1685,18.634626 -87.1212,65.629386 -1.4621,5.95441 3.0124,8.19807 5.989,8.96178 l 41.677,5.22406 c 4.4707,-0.7727 6.6912,-4.49115 7.4318,-8.23271 3.7402,-16.38842 17.1354,-24.58262 32.0234,-26.08696 0.7546,0 1.5043,0 2.9983,0 8.9053,0 18.5858,3.74286 23.8138,11.16822 5.9313,8.96561 5.2099,20.90395 5.2099,31.33924 v 5.96082 z m 0,43.27759 c 0,17.16239 0.7225,30.57168 -8.1956,45.46091 -5.2074,10.43657 -14.1396,17.1547 -23.8266,19.40091 -1.4812,0 -3.6979,0.765 -5.9467,0.765 -16.3704,0 -26.0767,-12.67253 -26.0767,-31.33411 0,-23.85614 14.1589,-35.05514 32.0234,-40.27664 9.687,-2.24108 20.8604,-2.9817 32.0208,-2.9817 v 8.96563 z m 137.1323,177.20102 c 18.2008,-15.39878 25.8892,-43.34817 26.2897,-57.93961 v -2.44004 c 0,-3.25509 -0.8022,-5.66175 -1.5993,-6.87984 -3.6453,-4.44495 -30.3689,-8.52281 -53.4022,-1.62755 -6.4678,2.04598 -12.1463,4.86595 -17.3961,8.50739 -4.0508,2.85335 -3.2383,6.46399 0.8023,6.08019 4.4475,-0.82275 10.126,-1.20782 16.5938,-2.04855 14.1588,-1.17958 30.7423,-1.5916 34.7842,3.66326 5.6412,6.86959 -6.4677,36.86753 -11.7496,49.83784 -1.5929,4.0663 2.0294,5.69641 5.6772,2.84691 z M 58.008246,346.36413 C 110.17835,393.76833 178.93315,422.14 255.79875,422.14 c 47.7251,0 102.7267,-13.38104 145.1995,-38.89937 5.6758,-3.2705 11.3158,-6.91194 16.5655,-10.95256 7.2854,-5.24975 0.8176,-13.37978 -6.4627,-10.14779 -3.2294,1.21553 -6.8734,2.85847 -10.1028,4.06631 -46.5392,18.24828 -95.4412,26.76081 -140.7623,26.76081 -72.0073,0 -141.5593,-19.87071 -197.785404,-52.68475 -5.2599,-2.82126 -8.9079,2.42848 -4.4423,6.08148 z"
-                                            style="fill:#ffffff"/>
-                                </g>
-                            </svg>
-                            <figcaption role="icon">Wishlist</figcaption>
+                            <svg id="slack" xmlns="http://www.w3.org/2000/svg"
+                                 aria-label="Slack" role="img"
+                                 viewBox="0 0 512 512"
+                                 stroke-linecap="round" stroke-linejoin="round" stroke-width="68"><rect
+                                    width="512" height="512"
+                                    rx="15%"
+                                    fill="#fff"/><path stroke="#ecb32d" d="M280 99l88 272"/><path stroke="#63c1a0" d="M144 143l88 272"/><path stroke="#89d3df" d="M98 232l272-88"/><path stroke="#e01a59" d="M143 368l272-88"/></svg>
+                            <figcaption role="icon">Bellingham Codes</figcaption>
                         </figure>
                     </a></div>
 
                     <div class="icon">
-                        <a href="/static/lighthouse/morganwebdev.com_2017-04-18_17-27-17.html">
+                        <a href="/static/lighthouse/morganwebdev.com_2018-03-18_18-59-35.html">
                             <figure>
                                 <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                                     <path d="m71 460-41-460h451l-41 460-185 52" fill="#e34f26"/>
@@ -242,73 +221,47 @@
                                     <path d="m255 208v57h70l-7 73-63 17v59l116-32 16-174zm0-114v56h137l5-56z"
                                           fill="#fff"/>
                                 </svg>
-                                <figcaption role="icon">Progressive Web Apps</figcaption>
+                                <figcaption role="icon">Lighthouse Audit/ PWA</figcaption>
                             </figure>
                         </a>
                     </div>
 
-
-                    <div class="icon"><a href="https://stackoverflow.com/users/6598884/morganwebdev" itemprop="sameAs"
-                                         rel="me" class="u-url">
+                    <div class="icon"><a href="https://codepen.io/airbridge/" itemprop="sameAs" rel="me" class="u-url">
                         <figure>
-                            <svg version="1.1" role="img" aria-labelledby="stackoverflow-title" class="square"
-                                 viewBox="0 0 512 512">
-                                <title id="stackoverflow-title">Where I learn to code</title>
-                                <g>
-                                    <rect height="100%" width="100%" rx="15%" ry="15%" style="fill:#f37a20;"/>
-                                    <g transform="matrix(1.5807476,0,0,1.5807476,-1690,-520)">
-                                        <rect height="21.336" style="fill:#ffffff;fill-opacity:1" width="99.906998"
-                                              x="1162.9312" y="562.14398"/>
-                                        <rect height="21.338608" style="fill:#ffffff;fill-opacity:1"
-                                              transform="matrix(0.17099512,0.98527188,-0.98527188,0.17099512,0,0)"
-                                              width="99.903854" x="583.38794" y="-1231.6235"/>
-                                        <polygon id="polygon10"
-                                                 points="191.668,291.191 291.147,300.357 289.189,321.6 189.709,312.44 "
-                                                 style="fill:#ffffff;fill-opacity:1"
-                                                 transform="translate(974.0981,234.40296)"/>
-                                        <rect height="21.337666" style="fill:#ffffff;fill-opacity:1"
-                                              transform="matrix(0.96571514,0.25960407,-0.25960407,0.96571514,0,0)"
-                                              width="99.903435" x="1259.8923" y="159.36772"/>
-                                        <polygon id="polygon14"
-                                                 points="224.254,197.353 310.304,248.107 299.464,266.484 213.408,215.727 "
-                                                 style="fill:#ffffff;fill-opacity:1"
-                                                 transform="translate(974.0981,234.40296)"/>
-                                        <polygon id="polygon16"
-                                                 points="275.116,150.619 331.403,233.161 313.776,245.178 257.485,162.641 "
-                                                 style="fill:#ffffff;fill-opacity:1"
-                                                 transform="translate(974.0981,234.40296)"/>
-                                        <polygon id="polygon18"
-                                                 points="157.776,382.5 162.758,382.5 322.5,382.5 322.5,382.836 322.5,377.852 322.5,278.5 305.5,278.5 305.5,366.5 174.5,366.5 174.5,278.5 157.5,278.5 157.5,382.5"
-                                                 style="fill:#ffffff;" transform="translate(974.0981,234.40296)"/>
-                                    </g>
-                                </g>
-                            </svg>
-                            <figcaption role="icon">Stack Overflow</figcaption>
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                 aria-label="CodePen" role="img"
+                                 viewBox="0 0 512 512"><rect
+                                    width="512" height="512"
+                                    rx="15%"
+                                    fill="#111"/><g
+                                    fill="none"
+                                    stroke="#e6e6e6"
+                                    stroke-width="33"
+                                    stroke-linejoin="round"><path d="M81 198v116l175 117 175-117V198L256 81z"/><path d="M81 198l175 116 175-116M256 81v117"/><path d="M81 314l175-116 175 116M256 431V314"/></g></svg>
+                            <figcaption role="icon">Codepen</figcaption>
                         </figure>
-                    </a>
-                    </div>
+                    </a></div>
                 </div>
 
                 <!--Row 4-->
 
                 <div class="row" role="group">
 
-                    <div class="icon"><a href="https://api.whatsapp.com/send?phone=14049162630">
+                    <div class="icon"><a href="https://pinboard.in/u:airbr/public/">
                         <figure>
-                            <svg version="1.1" role="img" aria-labelledby="whatsapp-title" class="square"
+                            <svg version="1.1" role="img" aria-labelledby="blank-title" class="square"
                                  viewBox="0 0 512 512">
-                                <title id="whatsapp-title">WhatsApp</title>
+                                <title id="pinboard-title">---</title>
                                 <g>
-                                    <rect height="100%" width="100%" rx="15%" ry="15%" style="fill:	#f9c013;"/>
+                                    <rect height="100%" width="100%" rx="15%" ry="15%" style="fill:	#182ef5;"/>
                                     <g>
-                                        <path d="m 456,250.85266 c 0,107.60904 -87.9126,194.8442 -196.36397,194.8442 -34.43066,0 -66.77677,-8.80168 -94.9199,-24.24162 L 56.000005,456 91.437745,351.45584 C 73.559715,322.08872 63.265025,287.65523 63.265025,250.85124 63.265025,143.23516 151.18049,56 259.63463,56 368.0874,56.001 456,143.23657 456,250.85266 z M 259.63603,87.03196 c -91.04092,0 -165.093965,73.49248 -165.093965,163.8207 0,35.84056 11.683465,69.04162 31.446055,96.04529 l -20.62177,60.83151 63.44285,-20.16403 c 26.07126,17.11323 57.29196,27.09805 90.82543,27.09805 91.02965,0 165.09396,-73.48543 165.09396,-163.81224 0,-90.3268 -74.06292,-163.81928 -165.09256,-163.81928 z m 99.15526,208.68972 c -1.20989,-1.98879 -4.4185,-3.18602 -9.22424,-5.5706 -4.81705,-2.3874 -28.48964,-13.94551 -32.894,-15.53429 -4.41845,-1.59301 -7.63122,-2.39304 -10.83838,2.38458 -3.20432,4.79028 -12.42856,15.53429 -15.24273,18.72031 -2.80853,3.19166 -5.60863,3.59026 -10.42569,1.20003 -4.80578,-2.38739 -20.32177,-7.4284 -38.70826,-23.70215 -14.30749,-12.65815 -23.96978,-28.2854 -26.77831,-33.07147 -2.80854,-4.77903 -0.2972,-7.3622 2.10993,-9.73975 2.16626,-2.14796 4.81423,-5.58186 7.22416,-8.36364 2.40712,-2.79447 3.20715,-4.78184 4.80861,-7.96926 1.61272,-3.18884 0.80002,-5.97485 -0.3986,-8.3707 -1.20286,-2.38317 -10.83274,-25.88955 -14.84415,-35.449 -4.01138,-9.55947 -8.0115,-7.96646 -10.82568,-7.96646 -2.80996,0 -6.01569,-0.40002 -9.22987,-0.40002 -3.20997,0 -8.42703,1.19864 -12.83562,5.97344 -4.41001,4.78325 -16.84138,16.33291 -16.84138,39.83365 0,23.50497 17.24279,46.21133 19.65273,49.39594 2.40431,3.17756 33.28838,52.9721 82.21811,72.10228 48.94802,19.11328 48.94802,12.74407 57.77365,11.937 8.81437,-0.78735 28.46992,-11.54403 32.48832,-22.70072 4.0086,-11.14964 4.0086,-20.71896 2.8114,-22.70917 z"
-                                              style="fill:#ffffff;"/>
+                                        <path fill="#fff"
+                                              d="M182 56L56 185l57-3 102 126-12 68 75-77L456 456 300 281l78-83L303 216 182 105"/>
                                     </g>
                                 </g>
                             </svg>
-                            <figcaption role="icon">Whats
-                                <wbr>
-                                App
+                            <figcaption role="icon">
+                                Pinboard Public List
                             </figcaption>
                         </figure>
                     </a></div>
@@ -362,7 +315,7 @@
                         </figure>
                     </a></div>
 
-                    <div class="icon"><a href="mailto:mmurrah@airbridge.ac.nz" itemprop="email" rel="me" class="u-email"
+                    <div class="icon"><a href="mailto:morgan@morganwebdev.com" itemprop="email" rel="me" class="u-email"
                                          target="_self">
                         <figure>
                             <svg version="1.1" role="img" aria-labelledby="email-title" class="square"
@@ -382,7 +335,10 @@
                 </div>
                 <!--end of itemscope-->
             </div>
+            </div>
             <!--end of screen -->
+           </div>
+
         </div>
     </div>
 
