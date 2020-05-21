@@ -25,7 +25,7 @@
                         <figure>
                             <svg version="1.1" role="img" aria-labelledby="avatar-title" class="square"
                                  viewBox="0 0 512 512">
-                                <title id="avatar-title">Morgan Murrah</title>
+                                <title id="avatar-title">Its me, Morgan Murrah. This is a brief note on a platform txt.fyi that I love and intend to update every once in a while. Welcome to my page.</title>
                                 <g>
                                     <rect height="100%" width="100%" rx="15%" ry="15%" style="fill: #00508F;"/>
                                     <!-- TODO: Handle Long SVG str -->
@@ -42,6 +42,7 @@
                     <div class="icon"><a href="https://git-scm.com/" itemprop="telephone" target="_self">
                         <figure>
                           <svg xmlns="http://www.w3.org/2000/svg" aria-label="Git" role="img" viewBox="0 0 512 512">
+                                <title id="git-title">Git, my favorite technology!</title>
 <rect width="512" height="512" rx="15%" fill="#fff"/>
 <path fill="#f05133" d="M440.8 238.9L273 71.2a24.7 24.7 0 0 0-35 0l-34.8 34.9 44.2 44.1a29.4 29.4 0 0 1 37.2 37.5l42.5 42.5a29.4 29.4 0 1 1-17.6 16.6l-39.7-39.7v104.5a29.4 29.4 0 1 1-24.2-.9V205.3a29.4 29.4 0 0 1-16-38.6l-43.5-43.5-115 115a24.7 24.7 0 0 0 0 34.9L239 440.8a24.7 24.7 0 0 0 35 0l166.9-167a24.7 24.7 0 0 0 0-34.9"/></svg>
                             <figcaption role="icon">Git</figcaption>
@@ -53,7 +54,7 @@
                         <figure>
                             <svg version="1.1" role="img" aria-labelledby="linkedin-title" class="square"
                                  viewBox="0 0 512 512">
-                                <title id="linkedin-title">Linkedin</title>
+                                <title id="linkedin-title">My Linkedin, where you can find my resume basically</title>
                                 <g>
                                     <rect
                                             height="100%"
@@ -80,7 +81,7 @@
                         <figure>
                             <svg version="1.1" role="img" aria-labelledby="work-email-title" class="square"
                                  viewBox="0 0 512 512">
-                                <title id="work-email-title">Email Morgan Murrah's work address</title>
+                                <title id="work-email-title">Click to email Morgan Murrah's work address</title>
                                 <g>
                                     <rect height="100%" width="100%" rx="15%" ry="15%" style="fill:#006492;"/>
                                     <g
@@ -103,7 +104,7 @@
                         <figure>
                             <svg version="1.1" role="img" aria-labelledby="stackoverflow-title" class="square"
                                  viewBox="0 0 512 512">
-                                <title id="stackoverflow-title"></title>
+                                <title id="stackoverflow-title">Stack Overflow is a helpful programming website. This links to my user account there.</title>
                                 <g>
                                     <rect height="100%" width="100%" rx="15%" ry="15%" style="fill:#f37a20;"/>
                                     <g transform="matrix(1.5807476,0,0,1.5807476,-1690,-520)">
@@ -144,6 +145,7 @@
                                 <svg version="1.1" role="img" aria-labelledby="title" class="square"
                                      viewBox="0 0 512 512"
                                      style="background: url(static/flagimg.png); background-size: auto 100%;">
+                                <title id="usnz-title">I am very proud to be a New Zealander and an American. This is a short wikipedia article about the minority I am a part of.</title>
                                 </svg>
                                 <figcaption role="icon">US/NZ Dual Citizen</figcaption>
                             </figure>
@@ -155,7 +157,7 @@
                         <figure>
                             <svg version="1.1" role="img" aria-labelledby="github-title" class="square"
                                  viewBox="0 0 512 512">
-                                <title id="github-title">An octocat</title>
+                                <title id="github-title">Github is where I store my personal projects and display items in my portfolio</title>
                                 <g>
                                     <rect
                                             height="100%"
@@ -173,11 +175,18 @@
                     </a></div>
 
 
-                    <div class="icon"><a href="https://www.ecma-international.org/publications/standards/Ecma-262.htm" itemprop="sameAs" rel="me"
+                    <div class="icon"><a href="https://hub.docker.com/u/airbr" itemprop="sameAs" rel="me"
                                          class="u-url">
                         <figure>
-                       <svg xmlns="http://www.w3.org/2000/svg" aria-label="JavaScript" role="img" viewBox="0 0 512 512"><rect width="512" height="512" rx="15%" fill="#f7df1e"/><path d="m324,370c10,17 24,29 47,29 20,0 33,-10 33,-24 0,-16 -13,-22 -35,-32l-12,-5c-35,-15 -58,-33 -58,-72 0,-36 27,-64 70,-64 31,0 53,11 68,39l-37,24c-8,-15 -17,-21 -31,-21 -14,0 -23,9 -23,21 0,14 9,20 30,29l12,5c41,18 64,35 64,76 0,43 -34,67 -80,67 -45,0 -74,-21 -88,-49zm-170,4c8,13 14,25 31,25 16,0 26,-6 26,-30V203h48v164c0,50 -29,72 -72,72 -39,0 -61,-20 -72,-44z"/></svg>
-                            <figcaption role="icon">JavaScript</figcaption>
+                       <svg xmlns="http://www.w3.org/2000/svg"
+                            aria-label="Docker" role="img"
+                            viewBox="0 0 512 512"><rect
+                            width="512" height="512"
+                            rx="15%"
+                            fill="#fff"/><path stroke="#066da5" stroke-width="38" d="M296 226h42m-92 0h42m-91 0h42m-91 0h41m-91 0h42m8-46h41m8 0h42m7 0h42m-42-46h42"/><path fill="#066da5" d="m472 228s-18-17-55-11c-4-29-35-46-35-46s-29 35-8 74c-6 3-16 7-31 7H68c-5 19-5 145 133 145 99 0 173-46 208-130 52 4 63-39 63-39"/>
+                            <title id="docker-title">Docker hub is where I share my first docker images</title>
+                            </svg>
+                            <figcaption role="icon">Docker</figcaption>
                         </figure>
                     </a></div>
                 </div>
@@ -188,7 +197,9 @@
 
                     <div class="icon"><a href="https://dev.to/airbr">
                         <figure>
-                           <svg xmlns="http://www.w3.org/2000/svg" aria-label="dev.to" role="img" viewBox="0 0 512 512"><rect width="512" height="512" rx="15%"/><path d="m 140.47,203.94 h -17.44 v 104.47 h 17.45 c 10.15529,-0.54503 17.35752,-8.66899 17.47,-17.41 v -69.65 c -0.69578,-10.36382 -7.79596,-17.27188 -17.48,-17.41 z m 45.73,87.25 c 0,18.81 -11.61,47.31 -48.36,47.25 H 91.44 V 172.98 h 47.38 c 35.44,0 47.36,28.46 47.37,47.28 z M 286.88,202.53 H 233.6 v 38.42 h 32.57 v 29.57 H 233.6 v 38.41 h 53.29 v 29.57 h -62.18 c -11.16,0.29 -20.44,-8.53 -20.72,-19.69 V 193.7 c -0.27,-11.15 8.56,-20.41 19.71,-20.69 h 63.19 z m 103.64,115.29 c -13.2,30.75 -36.85,24.63 -47.44,0 l -38.53,-144.8 h 32.57 l 29.71,113.72 29.57,-113.72 h 32.58 z" fill="#fff"/></svg>
+                           <svg xmlns="http://www.w3.org/2000/svg" aria-label="dev.to" role="img" viewBox="0 0 512 512"><rect width="512" height="512" rx="15%"/><path d="m 140.47,203.94 h -17.44 v 104.47 h 17.45 c 10.15529,-0.54503 17.35752,-8.66899 17.47,-17.41 v -69.65 c -0.69578,-10.36382 -7.79596,-17.27188 -17.48,-17.41 z m 45.73,87.25 c 0,18.81 -11.61,47.31 -48.36,47.25 H 91.44 V 172.98 h 47.38 c 35.44,0 47.36,28.46 47.37,47.28 z M 286.88,202.53 H 233.6 v 38.42 h 32.57 v 29.57 H 233.6 v 38.41 h 53.29 v 29.57 h -62.18 c -11.16,0.29 -20.44,-8.53 -20.72,-19.69 V 193.7 c -0.27,-11.15 8.56,-20.41 19.71,-20.69 h 63.19 z m 103.64,115.29 c -13.2,30.75 -36.85,24.63 -47.44,0 l -38.53,-144.8 h 32.57 l 29.71,113.72 29.57,-113.72 h 32.58 z" fill="#fff"/>
+                        <title id="devto-title">Dev.To is a helpful programming community I am a part of. This links to my profile there.</title>
+                        </svg>
                             <figcaption role="icon">Dev.to</figcaption>
                         </figure>
                     </a></div>
@@ -201,7 +212,9 @@
                                  stroke-linecap="round" stroke-linejoin="round" stroke-width="68"><rect
                                     width="512" height="512"
                                     rx="15%"
-                                    fill="#fff"/><path stroke="#ecb32d" d="M280 99l88 272"/><path stroke="#63c1a0" d="M144 143l88 272"/><path stroke="#89d3df" d="M98 232l272-88"/><path stroke="#e01a59" d="M143 368l272-88"/></svg>
+                                    fill="#fff"/><path stroke="#ecb32d" d="M280 99l88 272"/><path stroke="#63c1a0" d="M144 143l88 272"/><path stroke="#89d3df" d="M98 232l272-88"/><path stroke="#e01a59" d="M143 368l272-88"/>
+                        <title id="bham-title">Bellingham Codes is my favorite programming community!!</title>
+                                    </svg>
                             <figcaption role="icon">Bellingham Codes</figcaption>
                         </figure>
                     </a></div>
@@ -216,6 +229,7 @@
                                           fill="#ebebeb"/>
                                     <path d="m255 208v57h70l-7 73-63 17v59l116-32 16-174zm0-114v56h137l5-56z"
                                           fill="#fff"/>
+                                <title id="lighthouse-title">I ran a lighthouse audit on my site a while ago!</title>
                                 </svg>
                                 <figcaption role="icon">Lighthouse Audit/ PWA</figcaption>
                             </figure>
@@ -233,7 +247,9 @@
                                     fill="none"
                                     stroke="#e6e6e6"
                                     stroke-width="33"
-                                    stroke-linejoin="round"><path d="M81 198v116l175 117 175-117V198L256 81z"/><path d="M81 198l175 116 175-116M256 81v117"/><path d="M81 314l175-116 175 116M256 431V314"/></g></svg>
+                                    stroke-linejoin="round"><path d="M81 198v116l175 117 175-117V198L256 81z"/><path d="M81 198l175 116 175-116M256 81v117"/><path d="M81 314l175-116 175 116M256 431V314"/></g>
+                                <title id="codepen-title">I prototype stuff occasionally on Codepen!</title>
+                                    </svg>
                             <figcaption role="icon">Codepen</figcaption>
                         </figure>
                     </a></div>
@@ -247,7 +263,6 @@
                         <figure>
                             <svg version="1.1" role="img" aria-labelledby="blank-title" class="square"
                                  viewBox="0 0 512 512">
-                                <title id="pinboard-title">---</title>
                                 <g>
                                     <rect height="100%" width="100%" rx="15%" ry="15%" style="fill:	#182ef5;"/>
                                     <g>
@@ -255,6 +270,7 @@
                                               d="M182 56L56 185l57-3 102 126-12 68 75-77L456 456 300 281l78-83L303 216 182 105"/>
                                     </g>
                                 </g>
+                                 <title id="pinboard-title">I use pinboard to manage my bookmarks! Social media for introverts</title>
                             </svg>
                             <figcaption role="icon">
                                 Pinboard Public List
@@ -276,6 +292,7 @@
 	l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"></path>
                                     </g>
                                 </g>
+                                 <title id="blog-title">My old blog.</title>
                             </svg>
                             <figcaption role="icon">Blog</figcaption>
                         </figure>
@@ -316,7 +333,7 @@
                         <figure>
                             <svg version="1.1" role="img" aria-labelledby="email-title" class="square"
                                  viewBox="0 0 512 512">
-                                <title id="email-title">Email Morgan Murrah</title>
+                                <title id="email-title">Email Morgan Murrah at my personal address</title>
                                 <g>
                                     <rect height="100%" width="100%" rx="15%" ry="15%" style="fill:#168de2;"/>
                                     <g>
