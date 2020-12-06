@@ -2,7 +2,12 @@
 
 ### [Online at morganwebdev.com](https://morganwebdev.com) 
 
-In version 4.0 I greatly simplified this repository down, and moved the deployment from Firebase to Netlify.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ed41d932-636f-4c3a-849a-adaaf6498e71/deploy-status)](https://app.netlify.com/sites/sharp-kilby-16c20a/deploys)
+
+
+In version 4.0 I greatly simplified this repository down (deleting some 4000+ lines of code and multiple directories) and moved the deployment from Firebase to Netlify. I removed dozens of dependencies from the package.json and simplified it down to two parcel.js commands. 
+
+I removed the PWA functionality because it was... well a little unnecessary. Everything is served on one page. Now I just work to focus my effort on making the [HTML designed to last](https://jeffhuang.com/designed_to_last/)
 
 #### Screenshots
 
