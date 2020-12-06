@@ -2,12 +2,13 @@
 
 ### [Online at morganwebdev.com](https://morganwebdev.com) 
 
-Built with a fancy Vue CLI PWA template this really could just be a single page of HTML. That may be the next iteration.
+~~Built with a fancy Vue CLI PWA template~~ this really could just be a single page of HTML. That may be the next iteration.
+
+In version 2.0 I greatly simplified this repository down, and moved the deployment from Firebase to Netlify.
 
 #### Screenshots
-![](readme-assets/updatedpersonal.png)
 
-* Check the `vue-cli.md` for instructions on running the dev environment.
+Coming soon
 
 #### Summary
 
@@ -19,12 +20,17 @@ Built with a fancy Vue CLI PWA template this really could just be a single page 
  * The focus is on giving clickable or pressable actions using just HTML as much as possible i.e. call my phone number with a compatible device/app on your system, click to see my Github. There are several ways to contact me and some bits of fun like Wikipedia articles about my American New Zealander heritage.
  
  * I wanted it to be mobile friendly and this lead me to actually emulating a mobile phone with app-like buttons. See Credits for original CSS frame which provided a great mobile-first frame to work within.
- 
- * On the fun side, the website has a very basic Service Worker enabling it for offline use (See: [github.com/airbr/wifiserviceworker](https://github.com/airbr/wifiServiceWorker). You can try it yourself by visiting my website offline and after refreshing your cache. The website should load with a blank screen (Im working on something fun for this)
- 
   
   Development:
   -- 
+
+
+#### 4.0
+
+Coming soon
+
+
+
 ###### V 3.0:
 
 Made some changes to the Icons/ changed a few details.
