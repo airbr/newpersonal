@@ -2,9 +2,7 @@
 
 ### [Online at morganwebdev.com](https://morganwebdev.com) 
 
-~~Built with a fancy Vue CLI PWA template~~ this really could just be a single page of HTML. That may be the next iteration.
-
-In version 2.0 I greatly simplified this repository down, and moved the deployment from Firebase to Netlify.
+In version 4.0 I greatly simplified this repository down, and moved the deployment from Firebase to Netlify.
 
 #### Screenshots
 
@@ -52,7 +50,7 @@ Cleaned up Aria tags and actually tested website using ChromeVox Screenreader. A
   ![](readme-assets/PWA100.png)
   
  
-#### Technologies/techniques used
+#### Technologies/techniques used. Some deprecated
 
 * Version control - Git. I.e this repository! 
 * HTML5 - Schema.org/person markup
