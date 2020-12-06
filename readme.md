@@ -4,6 +4,8 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ed41d932-636f-4c3a-849a-adaaf6498e71/deploy-status)](https://app.netlify.com/sites/sharp-kilby-16c20a/deploys)
 
+![Recent Lighthouse Test](readme-assets/lighthouse-2020.png)
+
 
 In version 4.0 I greatly simplified this repository down (deleting some 4000+ lines of code and multiple directories) and moved the deployment from Firebase to Netlify. I removed dozens of dependencies from the package.json and simplified it down to two parcel.js commands. 
 
