@@ -4,9 +4,6 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ed41d932-636f-4c3a-849a-adaaf6498e71/deploy-status)](https://app.netlify.com/sites/sharp-kilby-16c20a/deploys)
 
-![Recent Lighthouse Test](readme-assets/lighthouse-2020.png)
-
-
 In version 4.0 I greatly simplified this repository down and moved the deployment from Firebase to Netlify. I removed dozens of dependencies from the package.json and simplified it down to two parcel.js commands. 
 
 `npm run serve` to run the site.
@@ -27,6 +24,9 @@ I removed the PWA functionality because it was... well a little unnecessary. Eve
  * I wanted it to be mobile friendly and this lead me to actually emulating a mobile phone with app-like buttons. See Credits for original CSS frame which provided a great mobile-first frame to work within.
 
 #### 4.0
+
+![Recent Lighthouse Test](readme-assets/lighthouse-2021.png)
+
 
 ###### V 3.0:
 
