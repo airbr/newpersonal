@@ -1,7 +1,6 @@
 BEGIN:VCARD
 N:Morgan;Murrah;
-ADR;INTL;PARCEL;WORK:;;PO Box 12136;Atlanta;GA;30355;USA
 EMAIL;INTERNET:morgan@morganwebdev.com
-TEL;CELL:+14049162630
 URL;WORK:morganwebdev.com
+URL;WORK:github.com/airbr
 END:VCARD

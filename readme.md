@@ -7,13 +7,13 @@
 ![Recent Lighthouse Test](readme-assets/lighthouse-2020.png)
 
 
-In version 4.0 I greatly simplified this repository down (deleting some 4000+ lines of code and multiple directories) and moved the deployment from Firebase to Netlify. I removed dozens of dependencies from the package.json and simplified it down to two parcel.js commands. 
+In version 4.0 I greatly simplified this repository down and moved the deployment from Firebase to Netlify. I removed dozens of dependencies from the package.json and simplified it down to two parcel.js commands. 
 
-I removed the PWA functionality because it was... well a little unnecessary. Everything is served on one page. Now I just work to focus my effort on making the [HTML designed to last](https://jeffhuang.com/designed_to_last/)
+`npm run serve` to run the site.
 
-#### Screenshots
+`npm run build` to generate the site.
 
-Coming soon
+I removed the PWA functionality because it was... well a little unnecessary. Everything is served on one page. Now I just work to focus my effort on making the [HTML designed to last](https://jeffhuang.com/designed_to_last/).
 
 #### Summary
 
@@ -25,16 +25,8 @@ Coming soon
  * The focus is on giving clickable or pressable actions using just HTML as much as possible i.e. call my phone number with a compatible device/app on your system, click to see my Github. There are several ways to contact me and some bits of fun like Wikipedia articles about my American New Zealander heritage.
  
  * I wanted it to be mobile friendly and this lead me to actually emulating a mobile phone with app-like buttons. See Credits for original CSS frame which provided a great mobile-first frame to work within.
-  
-  Development:
-  -- 
-
 
 #### 4.0
-
-Coming soon
-
-
 
 ###### V 3.0:
 
