@@ -4,6 +4,12 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ed41d932-636f-4c3a-849a-adaaf6498e71/deploy-status)](https://app.netlify.com/sites/sharp-kilby-16c20a/deploys)
 
+### Update 5.0
+
+In 5.0 I simplified it even further... I removed Parcel and build commands entirely and just serve a static AMP page that is cached in the AMP Cache.
+
+### Update 4.0
+
 In version 4.0 I greatly simplified this repository down and moved the deployment from Firebase to Netlify. I removed dozens of dependencies from the package.json and simplified it down to two parcel.js commands. 
 
 `npm run serve` to run the site.

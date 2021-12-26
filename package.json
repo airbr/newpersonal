@@ -1,16 +1,16 @@
 {
   "name": "morgan-murrah",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "A personal website",
-  "author": "Morgan Murrah <mmurrah@airbridge.ac.nz>",
+  "author": "Morgan Murrah <morgan@morganwebdev.com>",
   "private": true,
   "scripts": {
-    "serve": "parcel index.html",
-    "build": "parcel build index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    // "serve": "parcel index.html",
+    // "build": "parcel build index.html",
+    // "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "cssnano": "^4.1.10",
-    "parcel": "^2.0.0"
+    // "cssnano": "^4.1.10",
+    // "parcel": "^2.0.0"
   }
 }
