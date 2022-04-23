@@ -21,10 +21,15 @@
         Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol';
       margin: 2rem;
-      background-size: cover;
       color: #ecf1f3;
       background-image: url(/static/img/coffee.jpg);
 
+    }
+    @media only screen and (max-width: 600px) {
+      body {
+        background-size: cover;
+        background-image: url(/static/img/coffee.jpg);
+      }
     }
     button {
       border: none;
