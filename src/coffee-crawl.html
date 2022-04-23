@@ -311,6 +311,29 @@
       </bento-lightbox>
       <button id="open-button3">THE COFFEE</button>
       <br>
+
+      <br>
+      <bento-lightbox id="my-lightbox4" hidden>
+        <div class="lightbox-content">
+
+          <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <label>Your Name: <input type="text" name="name" /></label>
+            </p>
+            <p>
+              <label>Message: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
+          <button id="close-button4">Close</button>
+        </div>
+      </bento-lightbox>
+      <button id="open-button4">COMMENTS</button>
+      <br>
+
+
       <script>
         (async () => {
           const lightboxElement = document.querySelector('#my-lightbox');
@@ -341,6 +364,17 @@
           document.querySelector('#open-button3').onclick = () => lightbox3.open();
           document.querySelector('#close-button3').onclick = () =>
             lightbox3.close();
+        })();
+
+
+        (async () => {
+          const lightboxElement4 = document.querySelector('#my-lightbox4');
+          await customElements.whenDefined('bento-lightbox');
+          const lightbox4 = await lightboxElement4.getApi();
+          // set up button actions
+          document.querySelector('#open-button4').onclick = () => lightbox4.open();
+          document.querySelector('#close-button4').onclick = () =>
+            lightbox4.close();
         })();
       </script>
         <br>
