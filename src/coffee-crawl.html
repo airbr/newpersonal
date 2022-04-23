@@ -4,7 +4,6 @@
     <title>☕ Coffee Crawl ☕</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>bento-sidebar</title>
     <link
       rel="stylesheet"
       type="text/css"
@@ -126,12 +125,16 @@
       }
       ul.lightbox-li li {
         color: white;
+        list-style-type: square;
+        font-size: 1.25em;
+        padding-block: 0px;
       }
       .comment:focus {
         outline: none !important;
         border:1px solid green;
         box-shadow: 0 0 10px #719ECE;
       }
+
     </style>
 
     <script
@@ -261,19 +264,18 @@
 
         <br>
     <bento-lightbox id="my-lightbox" hidden>
-        <div class="lightbox-content">
+        <div style="padding: 20px;" class="lightbox-content">
 
-          <p style="padding: 20px; font-size: 32px;">
-            A coffee event / birthday party!
-            Visit several cafes or just one and meet at a park after to hang out in Beautiful Bellingham WA
-          </p>
+          <h1>The itinerary - May 15th</h1>
+
+          <h2>🎉 You are invited! 🎉</h2>
           
          <ul class="lightbox-li">
-           <li>Get coffee at one or more cafes on May 15th</li>
-           <li>Meet at Waypoint Park after</li>
-           <li>Comment on coffee</li>
-           <li>Drink coffee</li>
-           <li>Love coffee and friends</li>
+           <li>10am - If you want to start early, meet at Avellino's for double espresso</li>
+           <li>Make our way for coffee at Camber</li>
+           <li>Visit to Ashuri Turkish coffee</li>
+           <li>Finally meeting at Blackfern/Waypoint park to hang out outside about or before 1pm. Feel free to meet us at the park at 1pm if you prefer/cant make the crawl!</li>
+           <li>Drink coffee,Comment on coffee,Love coffee and friends</li>
          </ul>
 
           <br>
@@ -302,7 +304,18 @@
           <h1> ☕ The coffeehouses ☕ </h1>
 
           <br>
-          <bento-accordion>
+
+          <ul class="lightbox-li coffeelist">
+
+            <li><a href="https://avellinocoffeehouse.com/"><h1>Avellino's</h1></a></li>
+            <li><a href="https://cambercoffee.com/"><h1>Camber</h1></a></li>
+            <li><a href="https://www.ashuri.co/"><h1>Ashuri</h1></a></li>
+            <li><a href="https://www.blackferncoffee.com/"><h1>Blackfern</h1></a></li>
+
+          </ul>
+
+
+          <!-- <bento-accordion>
             <section>
               <h2>Avellino's</h2>
               <a href="http://www.avellinocoffeehouse.com/"><div>Website</div></a>
@@ -319,7 +332,7 @@
                 <h2>Blackfern</h2>
                 <div>Content in section 4.</div>
             </section>
-          </bento-accordion>
+          </bento-accordion> -->
           <br>
 
           <button id="close-button3">Close</button>
@@ -347,6 +360,7 @@
       <button id="open-button4">COMMENTS</button>
       <br>
 
+      <h4 style="color: whitesmoke;">A #coffeemorgan production</h4>
 
       <script>
         (async () => {
