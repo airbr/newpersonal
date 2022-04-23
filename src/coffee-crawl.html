@@ -122,6 +122,11 @@
       ul.lightbox-li li {
         color: white;
       }
+      .comment:focus {
+        outline: none !important;
+        border:1px solid green;
+        box-shadow: 0 0 10px #719ECE;
+      }
     </style>
 
     <script
@@ -254,7 +259,7 @@
         <div class="lightbox-content">
           
          <ul class="lightbox-li">
-           <li>Get coffee at one or more cafes</li>
+           <li>Get coffee at one or more cafes on May 15th</li>
            <li>Meet at Waypoint Park after</li>
            <li>Comment on coffee</li>
            <li>Drink coffee</li>
@@ -324,7 +329,7 @@
           <form name="contact" method="POST" data-netlify="true">
             <h2 style="text-align: center;"><label>Send your coffee thoughts:</label></h2>
             <p style="text-align: center;">
-                <textarea style="height: 200px; width: 90%;" name="message"></textarea>
+                <textarea class="comment" style="height: 200px; width: 90%; font-size: 30px;" name="message"></textarea>
             </p>
             <p style="text-align: center;">
               <button type="submit">☕ Send ☕</button>
