@@ -185,6 +185,57 @@
             background: seagreen;
           }
         </style>
+         <link
+         rel="stylesheet"
+         type="text/css"
+         href="https://cdn.ampproject.org/v0/bento-social-share-1.0.css"
+       />
+       <script
+         async
+         src="https://cdn.ampproject.org/v0/bento-social-share-1.0.js"
+       ></script>
+       <script
+         async
+         src="https://cdn.ampproject.org/v0/bento-twitter-1.0.js"
+       ></script>
+       <style>
+         .social-share-group {
+           display: grid;
+           grid-template-columns: repeat(4, min-content);
+           gap: 8px;
+           margin: auto;
+         }
+         bento-social-share {
+           border-radius: 8.4px;
+           height: calc(8vw + 1.5em) !important;
+           width: calc(8vw + 1.5em) !important;
+           cursor: pointer;
+           box-shadow: 0 8px 16px 0 rgba(0, 43, 57, 0.15);
+           transition: transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1),
+             box-shadow 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+         }
+         bento-social-share:hover {
+           transform: translateY(-0.125em);
+           box-shadow: 0 25px 20px -15px rgba(0, 43, 57, 0.15);
+         }
+         bento-social-share[type='email'] {
+           color: #002b39;
+           background: #fff;
+         }
+         bento-social-share[type='twitter'] {
+           color: #fff;
+           background: #1da1f2;
+         }
+         bento-social-share[type='pinterest'] {
+           color: #e60023;
+           background: #fff;
+           border-radius: 50%;
+         }
+         bento-social-share[type='whatsapp'] {
+           color: #fff;
+           background: #25d366;
+         }
+       </style>
     </head>
     <body>
         <!-- <button class="sidebar" id="open-sidebar">
@@ -277,6 +328,9 @@
            <li>Drink coffee,Comment on coffee,Love coffee and friends</li>
          </ul>
 
+         <h3>Add to your calendar:       <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MG81dHNlNXA5dW4zNjloZmowcjRvYm9iZjQgbW9yZ2FuQG1vcmdhbndlYmRldi5jb20&amp;tmsrc=morgan%40morganwebdev.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
+         </h3>
+
           <br>
           <button id="close-button">Close</button>
         </div>
@@ -338,7 +392,35 @@
       <button id="open-button4">COMMENTS</button>
       <br>
 
-      <h4 style="color: whitesmoke;">A #coffeemorgan production</h4>
+      <a href="https://morganwebdev.com"><h4 style="color: whitesmoke; text-decoration: underline;">A #coffeemorgan production</h4></a>
+
+      <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MG81dHNlNXA5dW4zNjloZmowcjRvYm9iZjQgbW9yZ2FuQG1vcmdhbndlYmRldi5jb20&amp;tmsrc=morgan%40morganwebdev.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
+
+<!-- <div>
+      <div class="social-share-group">
+        <bento-social-share
+          type="email"
+          aria-label="Share via email"
+        ></bento-social-share>
+        <bento-social-share
+          type="twitter"
+          aria-label="Share on Twitter"
+        ></bento-social-share>
+        <bento-social-share
+          type="pinterest"
+          aria-label="Share on pinterest"
+        ></bento-social-share>
+        <bento-social-share
+          type="whatsapp"
+          aria-label="Share on whatsapp"
+        ></bento-social-share>
+      </div>
+    </div> -->
+      <script>
+        (async () => {
+          await customElements.whenDefined('bento-social-share');
+        })();
+      </script>
 
       <script>
         (async () => {
