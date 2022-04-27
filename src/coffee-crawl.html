@@ -55,21 +55,6 @@
   </style>
     <script
       type="module"
-      async
-      src="https://cdn.ampproject.org/v0/bento-timeago-1.0.mjs"
-    ></script>
-    <script
-      nomodule
-      async
-      src="https://cdn.ampproject.org/v0/bento-timeago-1.0.js"
-    ></script>
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.ampproject.org/v0/bento-timeago-1.0.css"
-    />
-    <script
-      type="module"
       src="https://cdn.ampproject.org/v0/bento-sidebar-1.0.mjs"
       crossorigin="anonymous"
     ></script>
@@ -139,7 +124,16 @@
         box-shadow: 0 0 10px #719ECE;
       }
 
+      .coffeelist li a {
+        color: white;
+      }
+
     </style>
+
+    <script async src="https://cdn.ampproject.org/v0/bento-mustache.js"></script>
+    <script type="module" src="https://cdn.ampproject.org/v0/bento-date-countdown-1.0.mjs" crossorigin="anonymous"></script>
+    <script nomodule src="https://cdn.ampproject.org/v0/bento-date-countdown-1.0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.ampproject.org/v0/bento-date-countdown-1.0.css" crossorigin="anonymous">
 
     <script
           type="module"
@@ -247,38 +241,39 @@
           </script>     -->
     <h1 class="textstyle">☕ Crawl 2022</h1>
     <h1>
-    <bento-timeago
-    class="textstyle"
-    id="my-timeago"
-    datetime="2022-05-15T00:37:33.809Z"
-    locale="en"
-    style="height: 34px; margin: 0 auto"
-  >
-  </bento-timeago>
-  </h1>
-  <h3>
-  May 15, 10am-1pm+
-  Bellingham, WA
-</h3>
-    <!-- <bento-base-carousel id="my-carousel">
-          <div class="red"></div>
-          <div class="blue"></div>
-          <div class="green"></div>
-        </bento-base-carousel> -->
-
-        <br>
+      <bento-date-countdown end-date="2022-05-15T10:00:00+0000" biggest-unit="DAYS">
+        <template>
+          <div>
+            <span>{{days}} {{dd}} </span>
+            <br>
+            <span>{{hours}} {{hh}} </span>
+            <br>
+            <span>{{minutes}} {{mm}} </span>
+            <br>
+            <span>{{seconds}} {{ss}} </span>
+          </div>
+        </template>
+      </bento-date-countdown>
+      </h1>
+      <h3>
+      May 15, 10am-1pm+
+      Bellingham, WA
+     </h3>
+      <br>
     <bento-lightbox id="my-lightbox" hidden>
-        <div style="padding: 20px;" class="lightbox-content">
+        <div style="padding: 35px;" class="lightbox-content">
 
-          <h1>The itinerary - May 15th</h1>
-          <h1>A birthday coffee crawl!</h1>
-          <h2>🎉 You are invited! 🎉</h2>
+          <h1>The itinerary</h1>
+          <h1>May 15th birthday coffee crawl!</h1>
+          <h1>🎉 You are invited! 🎉</h1>
           
          <ul class="lightbox-li">
            <li>10am - If you want to start early, meet at Avellino's for double espresso</li>
            <li>Make our way for coffee at Camber</li>
            <li>Visit to Ashuri Turkish coffee</li>
-           <li>Finally meeting at Blackfern/Waypoint park to hang out outside about or before 1pm. Feel free to meet us at the park at 1pm if you prefer/cant make the crawl! There will be vegan birthday cake</li>
+           <li>Finally meeting at Blackfern/Waypoint park to hang out outside about or before 1pm. </li>
+           <li>Feel free to meet us at the park at 1pm if you prefer/cant make the crawl! </li>
+            <li>There will be vegan birthday cake</li>
            <li>Drink coffee,Comment on coffee,Love coffee and friends</li>
          </ul>
 
@@ -317,29 +312,8 @@
             <li><a href="https://www.blackferncoffee.com/"><h1>Blackfern</h1></a></li>
 
           </ul>
-
-
-          <!-- <bento-accordion>
-            <section>
-              <h2>Avellino's</h2>
-              <a href="http://www.avellinocoffeehouse.com/"><div>Website</div></a>
-            </section>
-            <section>
-              <h2>Camber</h2>
-              <div>Content in section 2.</div>
-            </section>
-            <section>
-                <h2>Ashuri</h2>
-                <div>Content in section 3.</div>
-            </section>
-            <section>
-                <h2>Blackfern</h2>
-                <div>Content in section 4.</div>
-            </section>
-          </bento-accordion> -->
           <br>
-
-          <button id="close-button3">Close</button>
+         <button id="close-button3">Close</button>
         </div>
       </bento-lightbox>
       <button id="open-button3">THE COFFEE</button>
@@ -350,7 +324,7 @@
         <div class="lightbox-content">
 
           <form name="contact" method="POST" data-netlify="true">
-            <h2 style="text-align: center;"><label>Send your coffee thoughts:</label></h2>
+            <h2 style="color: white; text-align: center;"><label>Send your coffee thoughts:</label></h2>
             <p style="text-align: center;">
                 <textarea class="comment" style="height: 200px; width: 90%; font-size: 30px;" name="message"></textarea>
             </p>
