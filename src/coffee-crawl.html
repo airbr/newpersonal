@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <style>html{visibility: hidden;opacity:0;}</style>
@@ -130,7 +131,6 @@
 
     </style>
 
-    <script async src="https://cdn.ampproject.org/v0/bento-mustache.js"></script>
     <script type="module" src="https://cdn.ampproject.org/v0/bento-date-countdown-1.0.mjs" crossorigin="anonymous"></script>
     <script nomodule src="https://cdn.ampproject.org/v0/bento-date-countdown-1.0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.ampproject.org/v0/bento-date-countdown-1.0.css" crossorigin="anonymous">
@@ -332,7 +332,7 @@
          </h3>
 
           <br>
-          <button id="close-button">Close</button>
+          <button id="close-button">Back</button>
         </div>
       </bento-lightbox>
       <button id="open-button">THE PLAN</button>
@@ -345,7 +345,7 @@
 
 
           <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1vhRA1bpQGtgir2GDn1fZQIMJoeL1BFxF&ehbc=2E312F&z=14" width="100%" height="550"></iframe>
-          <button id="close-button2">Close</button>
+          <button id="close-button2">Back</button>
         </div>
       </bento-lightbox>
       <button id="open-button2">THE MAP</button>
@@ -367,7 +367,7 @@
 
           </ul>
           <br>
-         <button id="close-button3">Close</button>
+         <button id="close-button3">Back</button>
         </div>
       </bento-lightbox>
       <button id="open-button3">THE COFFEE</button>
@@ -376,20 +376,52 @@
       <br>
       <bento-lightbox id="my-lightbox4" hidden>
         <div class="lightbox-content">
+          <style>
 
-          <form name="contact" method="POST" data-netlify="true">
-            <h2 style="color: white; text-align: center;"><label>Send your coffee thoughts:</label></h2>
-            <p style="text-align: center;">
-                <textarea class="comment" style="height: 200px; width: 90%; font-size: 30px;" name="message"></textarea>
+            .rsvp {
+              height: 36px;
+              width: 80%;
+            }
+
+            .radios {
+              font-size: 24px;
+            }
+          </style>
+
+          <form style="text-align: center;" name="contact" method="POST" data-netlify="true">
+            <h1>Send your ☕coffee☕ thoughts!</h1>
+            <p>
+              <label>Your Name:
+                <br>
+              <input class="rsvp" type="text" name="name" /></label>
             </p>
-            <p style="text-align: center;">
-              <button type="submit">☕ Send ☕</button>
+            <p>
+              <label>How's best to reach you?
+                <br>
+                <input class="rsvp" type="text" name="communication" /></label>
+            </p>
+            <p>
+              <p>When/where do you plan to arrive?</p>
+               <input class="radios" type="radio" id="avellinocoffeehouse" name="route" value="Avellino's">
+               <label class="radios" for="avellinocoffeehouse">Avellinos</label><br>
+               <input class="radios" type="radio" id="alongtheway" name="route" value="Along the way">
+               <label class="radios" for="alongtheway">Along the way</label><br>
+               <input class="radios" type="radio" id="blackfern" name="route" value="Blackfern/Waypoint park">
+               <label class="radios" for="blackfern">Blackfern</label>
+            </p>
+            <p>
+              <label>Message: 
+                <br>
+                <textarea class="rsvp" name="message"></textarea></label>
+            </p>
+            <p>
+              <button type="submit">☕RSVP☕</button>
             </p>
           </form>
-          <button id="close-button4">Close</button>
+          <button id="close-button4">Back</button>
         </div>
       </bento-lightbox>
-      <button id="open-button4">COMMENTS</button>
+      <button id="open-button4">RSVP</button>
       <br>
 
       <a href="https://morganwebdev.com"><h4 style="color: whitesmoke; text-decoration: underline;">A #coffeemorgan production</h4></a>

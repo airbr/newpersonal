@@ -11,11 +11,12 @@
 //     },
 //   });
 
-var CACHE_NAME = 'v1';
+var CACHE_NAME = 'v3';
 
 var REQUIRED_FILES = [
   'index.html',
   'offline.html',
+  'coffee-crawl.html'
 ];
 
 
