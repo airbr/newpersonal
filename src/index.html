@@ -20,6 +20,7 @@
     <!-- Add to home screen for Windows -->
     <meta name="msapplication-TileColor" content="#000000">
       <script async src="https://cdn.ampproject.org/v0.js"></script>
+      <script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
       <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
       <style amp-custom>
         /*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
@@ -513,7 +514,46 @@
             
             .logo-text {fill:#fff;}
             
-            #mdn-logo {height: 35px; }
+            #quote-lb {
+                background: whitesmoke;
+            }
+
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+                Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+                'Segoe UI Symbol';
+                margin: 2rem;
+            }
+            button {
+                max-width: 600px;
+                width: 90%;
+                border: none;
+                padding: 1rem 2rem;
+                border-radius: 8px;
+                color: #269da3;
+                background: white;
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .quote-lb-container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #269da3;
+                height: 100%;
+                flex-direction: column;
+            }
+
+            .CTA-button {
+                margin-top: 20px;
+                background: #269da3;
+                color: whitesmoke;
+            }
+
+            blockquote {
+                text-decoration: underline;
+                font-size: 32px;
+            }
       
       </style>
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
@@ -528,15 +568,15 @@
       <div id="mobile-query" class="marvel-device htc-one">
   
           <div class="top-bar"></div>
-          <div class="camera"></div>
-          <div class="sensor"></div>
+          <!-- <div class="camera"></div> -->
+          <!-- <div class="sensor"></div> -->
           <div class="speaker"></div>
           <div class="screen">
               <div itemscope itemtype="http://schema.org/Person" class="h-card" rel="me">
   
                 <p title="I am an American New Zealander" lang="mi">tēnā koutou🇳🇿- Greetings to you all</p>
-                    <p>My name is Morgan.</p>
-                  <p class="p-note"><span itemprop="jobTitle">Production Developer</span> @ <a href="https://www.wompmobile.com/"><span itemprop="worksFor"> WompMobile </span></a></p>
+                    <p>My name is Morgan. This is my website.</p>
+                  <!-- <p class="p-note"><span itemprop="jobTitle">Production Developer</span> @ <a href="https://www.wompmobile.com/"><span itemprop="worksFor"> WompMobile </span></a></p> -->
   
                   <!--Row 1-->
   
@@ -857,15 +897,21 @@
                         </figure>
                     </a></div>
                   </div> 
-                             
-                      <!-- <a href="https://medicare4all.org/">
-                  <amp-img src="/static/img/MedButton1.gif"
-                    width="88"
-                    height="31"
-                    layout="fixed"
-                    alt="">
-                  </amp-img>
-                </a> -->
+
+                  <button class="CTA-button" on="tap:quote-lb">Get a Quote</button>
+
+                <amp-lightbox id="quote-lb" layout="nodisplay">
+                    <div class="quote-lb-container">
+                        <a href="https://en.wikipedia.org/wiki/Carpe_diem">
+                        <blockquote>
+                            "Seize the Day!"
+                        </blockquote>
+                        </a>
+                <button on="tap:quote-lb.close">Nice!</button>
+                    </div>
+                </amp-lightbox>
+
+
                   <!--end of itemscope-->
               </div>
               <!--end of screen -->
