@@ -4,6 +4,18 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ed41d932-636f-4c3a-849a-adaaf6498e71/deploy-status)](https://app.netlify.com/sites/sharp-kilby-16c20a/deploys)
 
+
+
+### Update 6.0.0
+
+Very good Lighthouse scores! Amp Lightbox linking to a Latin quote! Updated icons!
+
+Installable!
+
+Good stuff.
+
+![Recent Lighthouse Test](readme-assets/lighthouse-2022.png)
+
 ### Update 5.0
 
 In 5.0 I simplified it even further... I removed Parcel and build commands entirely and just serve a static AMP page that is cached in the AMP Cache.
