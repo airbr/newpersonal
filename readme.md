@@ -5,12 +5,17 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ed41d932-636f-4c3a-849a-adaaf6498e71/deploy-status)](https://app.netlify.com/sites/sharp-kilby-16c20a/deploys)
 
 
+### New stuff in June 2022: Tests! and validator
+
+1. First, remember togit `npm install`
+
+2. `npm run test` now runs Playwright tests on the live site.
+
+3. `npm run validate` runs the AMP HTML Validator on the local index.html file in `src`.
 
 ### Update 6.0.0
 
-Very good Lighthouse scores! Amp Lightbox linking to a Latin quote! Updated icons!
-
-Installable!
+Very good Lighthouse scores! Amp Lightbox linking to a Latin quote! Updated icons! Installable!
 
 Good stuff.
 

@@ -11,6 +11,18 @@ const config = {
   },
   projects: [
     {
+      name: 'mobile iphone8',
+      use: { ...devices['iPhone 8'] },
+    },
+    {
+      name: 'mobile nexus',
+      use: { ...devices['Nexus 10'] },
+    },
+    {
+      name: 'mobile moto',
+      use: { ...devices['Moto G4'] },
+    },
+    {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
     },
@@ -21,6 +33,10 @@ const config = {
     {
       name: 'webkit',
       use: { ...devices['Desktop Safari'] },
+    },
+    {
+      name: 'edge',
+      use: { ...devices['Desktop Edge'] },
     },
   ],
 };

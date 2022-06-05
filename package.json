@@ -5,9 +5,13 @@
   "author": "Morgan Murrah <morgan@morganwebdev.com>",
   "private": true,
   "scripts": {
-     "test": "npx playwright test"
+    "test": "npx playwright test",
+    "validate": "amphtml-validator src/index.html"
   },
   "devDependencies": {
     "@playwright/test": "^1.22.2"
+  },
+  "dependencies": {
+    "amphtml-validator": "^1.0.35"
   }
 }
