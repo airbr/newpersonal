@@ -7,7 +7,7 @@
 
 ### New stuff in June 2022: Tests! and validator
 
-1. First, remember togit `npm install`
+1. Remember to `npm install`
 
 2. `npm run test` now runs Playwright tests on the live site.
 
