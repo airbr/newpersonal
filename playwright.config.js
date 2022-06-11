@@ -11,6 +11,9 @@ const config = {
   },
   projects: [
     {
+      name: 'blank'
+    },
+    {
       name: 'mobile iphone8',
       use: { ...devices['iPhone 8'] },
     },

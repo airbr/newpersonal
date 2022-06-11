@@ -5,6 +5,7 @@
   "author": "Morgan Murrah <morgan@morganwebdev.com>",
   "private": true,
   "scripts": {
+    "testcontext": "npx playwright test context.spec.js",
     "test": "npx playwright test",
     "validate": "amphtml-validator src/index.html"
   },
