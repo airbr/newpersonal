@@ -42,5 +42,5 @@ await Promise.all([
 ]);
 
 await expect(page.locator('text=Morgan Murrah - Software Developer')).toHaveCount(1)
-await page.screenshot({ path: 'screenshot.png' });
+// await page.screenshot({ path: 'screenshot.png' });
 }); 
