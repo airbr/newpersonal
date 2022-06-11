@@ -28,3 +28,20 @@ jobs:
         cache: 'npm'
     - run: npm install
     - run: npm run validate
+    
+  e2e-tests:
+    runs-on: ubuntu-latest # or macos-latest, windows-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 16.x
+          cache: 'npm'
+
+      - uses: microsoft/playwright-github-action@v1
+
+      - name: Install dependencies and run tests
+        run: npm install && npx playwright install && npm test
+
