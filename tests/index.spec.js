@@ -12,7 +12,7 @@ test('16 icons and svgs are present', async ({ page }) => {
   const icons = page.locator('.icon');
   await expect(icons).toHaveCount(16);
   const svgs = page.locator('svg');
-  await expect(icons).toHaveCount(16);
+  await expect(svgs).toHaveCount(16);
 });
 
 test('github link works', async ({ page }) => {

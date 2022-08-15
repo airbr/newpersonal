@@ -7,12 +7,9 @@ const config = {
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
   use: {
-    trace: 'on-first-retry',
+    trace: 'on',
   },
   projects: [
-    {
-      name: 'blank'
-    },
     {
       name: 'mobile iphone8',
       use: { ...devices['iPhone 8'] },

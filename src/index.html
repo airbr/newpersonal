@@ -20,6 +20,7 @@
     <!-- Add to home screen for Windows -->
     <meta name="msapplication-TileColor" content="#000000">
       <script async src="https://cdn.ampproject.org/v0.js"></script>
+      <script async custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js"></script>
       <script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
       <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
       <style amp-custom>
@@ -554,6 +555,42 @@
                 text-decoration: underline;
                 font-size: 32px;
             }
+
+            @keyframes ping {
+            0% {
+                transform: scale(1);
+                opacity: 0.5;
+            }
+            100% {
+                transform: scale(2);
+                opacity: 0;
+            }
+            }
+
+            .ping {
+            position: absolute;
+            color: red;
+            background-color: red;
+            left: 300px;
+            top: 45px;
+            }
+
+            .ping::before,
+            .ping::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 1.25em;
+            height: 1.25em;
+            border-radius: 50%;
+            background-color: currentColor;
+            }
+
+            .ping::before {
+                animation: ping 1.7s ease infinite;
+            opacity: 0.25;
+            }
       
       </style>
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
@@ -561,6 +598,14 @@
     <link rel="canonical" href="https://morganwebdev.com">
   </head>
   <body>
+    <amp-animation layout="nodisplay">
+        <script type="application/json">
+          {
+            "duration": "1.7",
+            "keyframes": "ping"
+          }
+        </script>
+      </amp-animation>
     <div id="app">
 
     <div>
@@ -638,8 +683,8 @@
                               <figcaption role="note">LinkedIn</figcaption>
                           </figure>
                       </a></div>
-  
-  
+                      
+                      <div class="ping"></div>
                       <div class="icon"><a href="https://www.morganwebdev.org" itemprop="sameAs"
                         rel="me" class="u-url">
                           <figure>

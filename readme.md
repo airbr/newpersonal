@@ -15,6 +15,8 @@ Coming: Github Action to run validator every push
 
 3. `npm run validate` runs the AMP HTML Validator on the local index.html file in `src`.
 
+4. `npm run serve` serves the page up on a classic old web server.
+
 ### Update 6.0.0
 
 Very good Lighthouse scores! Amp Lightbox linking to a Latin quote! Updated icons! Installable!
@@ -31,9 +33,9 @@ In 5.0 I simplified it even further... I removed Parcel and build commands entir
 
 In version 4.0 I greatly simplified this repository down and moved the deployment from Firebase to Netlify. I removed dozens of dependencies from the package.json and simplified it down to two parcel.js commands. 
 
-`npm run serve` to run the site.
+<!-- `npm run serve` to run the site.
 
-`npm run build` to generate the site.
+`npm run build` to generate the site. -->
 
 I removed the PWA functionality because it was... well a little unnecessary. Everything is served on one page. Now I just work to focus my effort on making the [HTML designed to last](https://jeffhuang.com/designed_to_last/).
 
