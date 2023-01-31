@@ -24,23 +24,3 @@ test('github link works', async ({ page }) => {
   await expect(name).toHaveCount(1);
   await expect(name).toHaveText('Morgan Murrah');
 }); 
-
-test('is on the first page of google search', async ({ page }) => {
-  
-  // Go to https://www.google.com/?gws_rd=ssl
-await page.goto('https://www.google.com/?gws_rd=ssl');
-
-// Click [aria-label="Search"]
-await page.locator('[aria-label="Search"]').click();
-
-// Fill [aria-label="Search"]
-await page.locator('[aria-label="Search"]').fill('morgan murrah');
-// Press Enter
-await Promise.all([
-  page.waitForNavigation(),
-  page.locator('[aria-label="Search"]').press('Enter')
-]);
-
-await expect(page.locator('text=Morgan Murrah - Software Developer')).toHaveCount(1)
-// await page.screenshot({ path: 'screenshot.png' });
-}); 
