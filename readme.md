@@ -5,6 +5,12 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ed41d932-636f-4c3a-849a-adaaf6498e71/deploy-status)](https://app.netlify.com/sites/sharp-kilby-16c20a/deploys)
 
 
+### Update 7.0.0
+
+Removed AMP for performance testing purposes
+
+Website is now receiving 100/100 scores on all Lighthouse categories, and excellent results on WebPageTest
+
 ### New stuff in June 2022: Tests! and validator
 
 Coming: Github Action to run validator every push
@@ -14,11 +20,6 @@ Coming: Github Action to run validator every push
 2. `npm run test` now runs Playwright tests on the live site.
 
 3. `npm run serve` serves the page up on a classic old web server.
-
-
-### Update 7.0.0
-
-Removed AMP for performance testing purposes
 
 ### Update 6.0.0
 
