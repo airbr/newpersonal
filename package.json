@@ -10,6 +10,6 @@
     "serve": "http-server src/"
   },
   "devDependencies": {
-    "@playwright/test": "^1.22.2"
+    "@playwright/test": "^1.32.1"
   }
 }
