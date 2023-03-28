@@ -7,13 +7,9 @@
   "scripts": {
     "testcontext": "npx playwright test context.spec.js",
     "test": "npx playwright test",
-    "validate": "amphtml-validator src/index.html",
     "serve": "http-server src/"
   },
   "devDependencies": {
     "@playwright/test": "^1.22.2"
-  },
-  "dependencies": {
-    "amphtml-validator": "^1.0.35"
   }
 }
