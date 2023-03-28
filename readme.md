@@ -13,9 +13,12 @@ Coming: Github Action to run validator every push
 
 2. `npm run test` now runs Playwright tests on the live site.
 
-3. `npm run validate` runs the AMP HTML Validator on the local index.html file in `src`.
+3. `npm run serve` serves the page up on a classic old web server.
 
-4. `npm run serve` serves the page up on a classic old web server.
+
+### Update 7.0.0
+
+Removed AMP for performance testing purposes
 
 ### Update 6.0.0
 
