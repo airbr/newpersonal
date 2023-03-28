@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html ⚡ lang="en">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Morgan Murrah's website">
-    <meta name="keywords" content="HTML, CSS, AMP">
+    <meta name="keywords" content="HTML, CSS">
     <meta name="author" content="Morgan Murrah">
     <title>Morgan Murrah - Software Developer</title>
     <link rel="manifest" href="/static/webmanifest.json">
@@ -17,7 +17,7 @@
     <meta property="og:image" content="https://avatars.githubusercontent.com/u/18056682?v=4" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.morganwebdev.com" />
-    <meta property="og:description" content="Morgan Murrah's website with links to his various stuff" />
+    <meta property="og:description" content="Morgan Murrah's website" />
 
     <!-- Add to home screen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -26,11 +26,14 @@
     <link rel="apple-touch-icon" href="/static/img/icons/apple-touch-icon.png">
     <!-- Add to home screen for Windows -->
     <meta name="msapplication-TileColor" content="#000000">
-      <script async src="https://cdn.ampproject.org/v0.js"></script>
-      <script async custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js"></script>
-      <script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
-      <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
-      <style amp-custom>
+
+    <script type="module" async src="https://cdn.ampproject.org/bento.mjs"></script>
+    <script nomodule src="https://cdn.ampproject.org/bento.js"></script>
+    <script type="module" async src="https://cdn.ampproject.org/v0/bento-lightbox-1.0.mjs"></script>
+    <script nomodule async src="https://cdn.ampproject.org/v0/bento-lightbox-1.0.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.ampproject.org/v0/bento-lightbox-1.0.css">
+
+      <style>
         /*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
             button,
             figure,
@@ -581,7 +584,6 @@
             background-color: red;
             left: 300px;
             top: 45px;
-            z-index: 100;
             }
 
             .ping::before,
@@ -600,21 +602,15 @@
                 animation: ping .7s ease infinite;
             opacity: 0.25;
             }
+
+            #open-button {
+                margin-top: 20px;
+            }
       
       </style>
-    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-
     <link rel="canonical" href="https://morganwebdev.com">
   </head>
   <body>
-    <amp-animation layout="nodisplay">
-        <script type="application/json">
-          {
-            "duration": "1.7",
-            "keyframes": "ping"
-          }
-        </script>
-      </amp-animation>
     <div id="app">
 
     <div>
@@ -934,9 +930,7 @@
                     </a></div>
                   </div> 
 
-                  <button class="CTA-button" on="tap:quote-lb">Get Favorite Quotes</button>
-
-                <amp-lightbox id="quote-lb" layout="nodisplay">
+                  <bento-lightbox id="my-lightbox" hidden>
                     <div class="quote-lb-container">
                         <a href="https://en.wikipedia.org/wiki/Carpe_diem">
                         <blockquote>
@@ -956,26 +950,35 @@
                             <br>
                         </a>
                         <br>
-                <button on="tap:quote-lb.close">Nice!</button>
+                        <button id="close-button">Nice!</button>
                     </div>
-                </amp-lightbox>
-
-
+                  </bento-lightbox>
+                  <button id="open-button">Get Favorite Quotes</button>
+                  <script>
+                    (async () => {
+                      const lightbox = document.querySelector('#my-lightbox');
+                      await customElements.whenDefined('bento-lightbox');
+                      const api = await lightbox.getApi();
+              
+                      // set up button actions
+                      document.querySelector('#open-button').onclick = () => api.open();
+                      document.querySelector('#close-button').onclick = () => api.close();
+                    })();
+                  </script>
                   <!--end of itemscope-->
               </div>
               <!--end of screen -->
           </div>
       </div>
   
-    </div>
-  
+    </div> 
         <br>
       </div>
-      <amp-install-serviceworker
-      src="/service-worker.js"
-      data-iframe-src="/service-worker.js"
-      layout="nodisplay"
-    >
-    </amp-install-serviceworker>
+    <script>
+        // Registering our Service worker
+        if('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('service-worker.js', { scope: './' })
+        }
+      </script>
   </body>
 </html>
