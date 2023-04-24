@@ -1,11 +1,10 @@
 {
   "name": "morgan-murrah",
-  "version": "7.0.0",
+  "version": "7.1.0",
   "description": "A personal website",
   "author": "Morgan Murrah <morgan@morganwebdev.com>",
   "private": true,
   "scripts": {
-    "testcontext": "npx playwright test context.spec.js",
     "test": "npx playwright test",
     "serve": "http-server src/"
   },
