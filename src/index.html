@@ -774,7 +774,7 @@
                       </a></div>
   
                       <div class="icon">
-                          <a href="https://www.webpagetest.org/result/230514_AiDc8C_3AV/">
+                          <a href="https://www.webpagetest.org/result/230717_AiDcY8_2XH/">
                               <figure>
                                   <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                                       <path d="m71 460-41-460h451l-41 460-185 52" fill="#e34f26"/>
@@ -783,9 +783,9 @@
                                             fill="#ebebeb"/>
                                       <path d="m255 208v57h70l-7 73-63 17v59l116-32 16-174zm0-114v56h137l5-56z"
                                             fill="#fff"/>
-                                  <title id="weppagetest-title">Helpful Audit</title>
+                                  <title id="weppagetest-title">Helpful WebPageTest Audit</title>
                                   </svg>
-                                  <figcaption role="note">WebPageTest</figcaption>
+                                  <figcaption role="note">Performance</figcaption>
                               </figure>
                           </a>
                       </div>
@@ -886,6 +886,7 @@
                             - Latin aphorism
                         </h3>
                         </a>
+                        <hr style="width: 80%;">
                         <a href="https://en.wikipedia.org/wiki/Vulcan_salute#%22Live_long_and_prosper%22">
                             <blockquote>
                                 "Live Long and Prosper"
@@ -895,7 +896,7 @@
                             </h3>
                             <br>
                         </a>
-                        <br>
+                        <hr style="width: 80%;">
                         <button class="confirmBtn" id="confirmBtn" value="default">Cool ✔</button>                      </div>
                     </div>
                     <!-- <form> 
@@ -918,7 +919,7 @@
                   <p>
                     <button id="showDialog" class="favorite styled"
                         type="button">
-                        My favorite quotes.
+                        My Favorite Quotes
                     </button>
                   </p>
                   <!-- <h1 class="result"><output></output></h1> -->
@@ -966,6 +967,12 @@
 
             // });
 
+            function onClick(event) {
+                if (event.target === favDialog) {
+                    favDialog.close();
+                }
+            }
+            favDialog.addEventListener("click", onClick);
             // Prevent the "confirm" button from the default behavior of submitting the form, and close the dialog with the `close()` method, which triggers the "close" event.
             confirmBtn.addEventListener("click", (event) => {
             event.preventDefault(); // We don't want to submit this fake form
