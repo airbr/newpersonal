@@ -24,13 +24,6 @@
     <meta name="msapplication-TileColor" content="#000000">
       <style>
 
-        /* 
-        Inlined Lightbox script 1.0
-        */
-
-        bento-lightbox[hidden]{display:none!important}bento-lightbox{width:100%;height:100%;position:fixed;box-sizing:border-box;background-color:rgba(0,0,0,0.9);color:#fff;visibility:hidden}bento-lightbox::part(lightbox){background:inherit;color:inherit}
-        /*# sourceURL=/src/bento/components/bento-lightbox/1.0/bento-lightbox.css*/
-
         /*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
             button,
             figure,
@@ -504,7 +497,6 @@
             a {
                 color: #fff;
                 text-decoration: none;
-                outline: 0
             }
 
             #desktop-query {
@@ -536,6 +528,7 @@
                 background: white;
                 font-size: 18px;
                 font-weight: bold;
+                margin: 20px;
             }
             .quote-lb-container {
                 display: flex;
@@ -883,8 +876,7 @@
                         </figure>
                     </a></div>
                   </div> 
-
-                  <bento-lightbox id="my-lightbox" hidden>
+                  <dialog id="favDialog">
                     <div class="quote-lb-container">
                         <a href="https://en.wikipedia.org/wiki/Carpe_diem">
                         <blockquote>
@@ -904,21 +896,32 @@
                             <br>
                         </a>
                         <br>
-                        <button id="close-button">Nice!</button>
+                        <button class="confirmBtn" id="confirmBtn" value="default">Cool ✔</button>                      </div>
                     </div>
-                  </bento-lightbox>
-                  <button id="open-button">Get Favorite Quotes</button>
-                  <script>
-                    (async () => {
-                      const lightbox = document.querySelector('#my-lightbox');
-                      await customElements.whenDefined('bento-lightbox');
-                      const api = await lightbox.getApi();
-              
-                      // set up button actions
-                      document.querySelector('#open-button').onclick = () => api.open();
-                      document.querySelector('#close-button').onclick = () => api.close();
-                    })();
-                  </script>
+                    <!-- <form> 
+                      <p>
+                        <label>
+                          Tell me, how are things?:
+                          <select>
+                            <option value="default">Choose…</option>
+                            <option>Good</option>
+                            <option>Bad</option>
+                            <option>Mixed</option>
+                          </select>
+                        </label>
+                      </p>
+                      <div>
+                        <button class="cancelBtn" value="cancel" formmethod="dialog">Cancel ✗</button>
+                        <button class="confirmBtn" id="confirmBtn" value="default">Confirm ✔</button>                      </div>
+                    </form> -->
+                  </dialog>
+                  <p>
+                    <button id="showDialog" class="favorite styled"
+                        type="button">
+                        My favorite quotes.
+                    </button>
+                  </p>
+                  <!-- <h1 class="result"><output></output></h1> -->
                   <!--end of itemscope-->
               </div>
               <!--end of screen -->
@@ -931,9 +934,44 @@
           navigator.serviceWorker.register('service-worker.js', { scope: './' })
         }
       </script>
-      <script type="module" async src="https://cdn.ampproject.org/bento.mjs"></script>
-      <script nomodule async htsrc="https://cdn.ampproject.org/bento.js"></script>
-      <script type="module" async src="https://cdn.ampproject.org/v0/bento-lightbox-1.0.mjs"></script>
-      <script nomodule async src="https://cdn.ampproject.org/v0/bento-lightbox-1.0.js"></script>
+      <script>
+            const showButton = document.getElementById("showDialog");
+            const favDialog = document.getElementById("favDialog");
+            // const outputBox = document.querySelector("output");
+            // const selectEl = favDialog.querySelector("select");
+            const confirmBtn = favDialog.querySelector("#confirmBtn");
+            // selectEl.addEventListener('keydown',function(event){
+            // if(event.key === 'Enter'){
+            //     event.preventDefault();
+            //     return false;
+            // }
+            // });
+
+            // "Show the dialog" button opens the <dialog> modally
+            showButton.addEventListener("click", () => {
+            favDialog.showModal();
+            });
+
+            // input sets the value of the submit button
+            // selectEl.addEventListener("change", (e) => {
+            // confirmBtn.value = selectEl.value;
+            // });
+
+            // "Cancel" button closes the dialog without submitting because of [formmethod="dialog"], triggering a close event.
+            // favDialog.addEventListener("close", (e) => {
+            // outputBox.value =
+            //     favDialog.returnValue === "default"
+            //     ? "Nothing chosen."
+            //     : `${favDialog.returnValue !== '' ? 'You chose: '+favDialog.returnValue : ''}`; // Have to check for "default" rather than empty string
+
+            // });
+
+            // Prevent the "confirm" button from the default behavior of submitting the form, and close the dialog with the `close()` method, which triggers the "close" event.
+            confirmBtn.addEventListener("click", (event) => {
+            event.preventDefault(); // We don't want to submit this fake form
+            favDialog.close();
+            // favDialog.close(selectEl.value); // Have to send the select box value here.
+            });
+      </script>
   </body>
 </html>
