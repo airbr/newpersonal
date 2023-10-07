@@ -455,7 +455,11 @@
                 text-align: center;
                 font-family: sans-serif;
                 font-size: .9em;
-                background-image: url(static/flagofbellingham.svg);
+                /* https://drafts.csswg.org/css-images-4/#image-set-notation */
+                background-image: image-set(
+                url("static/img/opito-hero-med.jpg") 1x,
+                url("static/img/opito-hero-lg.jpg") 2x
+                );
                 background-size: 100%;
             }
 
@@ -891,7 +895,7 @@
                   <div class="flex-btn-container">
                     <button id="showDialog" class="btn1"
                         type="button">
-                        Beloved Quotes & More
+                        Quotes & More
                     </button>
                 </div>
               </div>
