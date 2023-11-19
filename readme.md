@@ -9,11 +9,11 @@
 
 ![100s on Lighthouse](readme-assets/100.png)
 
-My website is now WCAG Tested with the Playwright testing library and receives no obvious errors.
+My website is now tested for accessibility with the Playwright testing library and receives no obvious errors. Contrast appears good!
 
 ![Tests passing](readme-assets/playwright.png)
 
-Additionally, the website still gets 100's on all four Lighthouse categories!
+Additionally, the website still gets 100's on all four Lighthouse categories! This is on local tests I have done and PageSpeed Insights.
 
 ### Update 7.0.0
 
