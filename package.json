@@ -9,6 +9,9 @@
     "serve": "http-server src/"
   },
   "devDependencies": {
-    "@playwright/test": "^1.32.1"
+    "@playwright/test": "^1.40.0"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "^4.8.1"
   }
 }
