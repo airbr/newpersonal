@@ -5,6 +5,16 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ed41d932-636f-4c3a-849a-adaaf6498e71/deploy-status)](https://app.netlify.com/sites/sharp-kilby-16c20a/deploys)
 
 
+### Update 8.0.0 - November 2023
+
+![100s on Lighthouse](readme-assets/100.png)
+
+My website is now WCAG Tested with the Playwright testing library and receives no obvious errors.
+
+![Tests passing](readme-assets/playwright.png)
+
+Additionally, the website still gets 100's on all four Lighthouse categories!
+
 ### Update 7.0.0
 
 Removed AMP for performance testing purposes
