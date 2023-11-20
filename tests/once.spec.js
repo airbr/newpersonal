@@ -1,8 +1,6 @@
 const { test, expect } = require('@playwright/test');
 const AxeBuilder = require('@axe-core/playwright').default; // 1
 
-
-
 test('one big test for a small page', async ({ page }) => {
 
     await page.goto('https://www.morganwebdev.com');
