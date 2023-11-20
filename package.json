@@ -7,7 +7,7 @@
   "scripts": {
     "test": "npx playwright test index --project=\"Desktop Chrome\"",
     "axe": "npx playwright test axe --project=\"Desktop Chrome\"",
-    "blast": "npx playwright test index",
+    "blast": "npx playwright test index --reporter=dot",
     "accessbilility": "npx playwright test axe",
     "serve": "http-server src/"
   },
