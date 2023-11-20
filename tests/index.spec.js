@@ -25,3 +25,12 @@ test('github link works', async ({ page }) => {
   await expect(name).toHaveCount(1);
   await expect(name).toHaveText('Morgan Murrah');
 }); 
+
+test('dialog opens to show text', async ({ page }) => {
+  await page.goto('https://www.morganwebdev.com');
+  await expect(page.locator("text=Repository for these SVG Icons")).not.toBeVisible();
+  await expect(page.locator("text=Quotes & More")).toBeVisible();
+  await page.locator('button:text("Quotes & More")').click();
+  await expect(page.locator("text=Repository for these SVG Icons")).toBeVisible();
+}); 
+

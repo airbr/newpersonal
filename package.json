@@ -1,11 +1,14 @@
 {
   "name": "morgan-murrah",
-  "version": "8.0.0",
+  "version": "8.1.0",
   "description": "A personal website, 100's on Lighthouse score, WCAG tested",
   "author": "Morgan Murrah <morgan@morganwebdev.com>",
   "private": true,
   "scripts": {
-    "test": "npx playwright test",
+    "test": "npx playwright test index --project=\"Desktop Chrome\"",
+    "axe": "npx playwright test axe --project=\"Desktop Chrome\"",
+    "blast": "npx playwright test index",
+    "accessbilility": "npx playwright test axe",
     "serve": "http-server src/"
   },
   "devDependencies": {
