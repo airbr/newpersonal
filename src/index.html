@@ -9,6 +9,8 @@
         LUX=function(){function n(){return Date.now?Date.now():+new Date}var r,e=n(),t=window.performance||{},a=t.timing||{navigationStart:(null===(r=window.LUX)||void 0===r?void 0:r.ns)||e};function o(){return t.now?t.now():n()-a.navigationStart}LUX={ac:[],addData:function(n,r){return LUX.cmd(["addData",n,r])},cmd:function(n){return LUX.ac.push(n)},init:function(){return LUX.cmd(["init"])},mark:function(){for(var n=[],r=0;r<arguments.length;r++)n[r]=arguments[r];if(t.mark)return t.mark.apply(t,n);var e=n[0],a=n[1]||{};void 0===a.startTime&&(a.startTime=o());LUX.cmd(["mark",e,a])},markLoadTime:function(){return LUX.cmd(["markLoadTime",o()])},measure:function(){for(var n=[],r=0;r<arguments.length;r++)n[r]=arguments[r];if(t.measure)return t.measure.apply(t,n);var e,a=n[0],i=n[1],u=n[2];e="object"==typeof i?n[1]:{start:i,end:u};e.duration||e.end||(e.end=o());LUX.cmd(["measure",a,e])},send:function(){return LUX.cmd(["send"])},ns:e};var i=LUX;if(window.LUX_ae=[],window.addEventListener("error",(function(n){window.LUX_ae.push(n)})),window.LUX_al=[],"function"==typeof PerformanceObserver&&"function"==typeof PerformanceLongTaskTiming){var u=new PerformanceObserver((function(n){for(var r=n.getEntries(),e=0;e<r.length;e++)window.LUX_al.push(r[e])}));try{u.observe({type:"longtask"})}catch(n){}}return i}(); 
     </script>
     <script src="https://cdn.speedcurve.com/js/lux.js?id=4369645830" async defer crossorigin="anonymous"></script>
+    <script defer src="js/htmx.min.js"></script>
+    <script defer src="js/preload.js"></script>
     <meta name="description" content="Morgan Murrah's website">
     <meta name="keywords" content="HTML, CSS">
     <meta name="author" content="Morgan Murrah">
@@ -440,7 +442,7 @@
     <meta property="og:description" content="Morgan's simple website with hyperlinks" />
   </head>
   <body>
-    <div id="app">
+    <div hx-ext="preload" id="app">
       <div id="mobile-query" class="marvel-device htc-one">
   
           <div class="top-bar"></div>
@@ -459,7 +461,7 @@
   
                   <div class="row" role="group">
 
-                    <article class="icon"><a href="https://github.com/airbr" itemprop="sameAs" rel="me" class="u-url">
+                    <article class="icon"><a preload="mouseover" href="https://github.com/airbr" itemprop="sameAs" rel="me" class="u-url">
                         <figure>
                             <svg version="1.1" role="img" aria-labelledby="github-title" class="square"
                                  viewBox="0 0 512 512">
@@ -480,7 +482,7 @@
                         </figure>
                     </a></article>
   
-                      <article class="icon"><a href="https://www.w3.org/community/sustyweb/participants#:~:text=and%20nominate%20participant%3A-,Beau%20Morgan%20Murrah,-Individual%20CLA%20commitment" itemprop="sameAs" rel="me" class="u-url">
+                      <article class="icon"><a preload="mouseover" href="https://www.w3.org/community/sustyweb/participants#:~:text=and%20nominate%20participant%3A-,Beau%20Morgan%20Murrah,-Individual%20CLA%20commitment" itemprop="sameAs" rel="me" class="u-url">
                         <figure>
                           <svg xmlns="http://www.w3.org/2000/svg"
                           aria-label="W3C" role="img"
@@ -496,7 +498,7 @@
                     </a></article>
 
 
-                 <article class="icon"><a href="https://linkedin.com/in/mmurrah/" itemprop="sameAs" rel="me"
+                 <article class="icon"><a preload="mouseover" href="https://linkedin.com/in/mmurrah/" itemprop="sameAs" rel="me"
                                            class="u-url">
                           <figure>
                               <svg version="1.1" role="img" aria-labelledby="linkedin-title" class="square"
@@ -522,7 +524,7 @@
                           </figure>
                       </a></article>
                       
-                      <article class="icon"><a href="https://www.morganwebdev.org" itemprop="sameAs"
+                      <article class="icon"><a preload="mouseover" href="https://www.morganwebdev.org" itemprop="sameAs"
                         rel="me" class="u-url">
                           <figure>
                             <svg xmlns="http://www.w3.org/2000/svg"
