@@ -4,9 +4,9 @@
 <channel>
   <title>Morgan Murrah's website - some RSS only content</title>
   <link>https://www.morganwebdev.com</link>
-  <description>Im posting on the world wide web</description>
+  <description>I am posting on the world wide web</description>
   <item>
-    <title>A haiku</title>
+    <title>A haiku from htmx</title>
     <link>https://htmx.org/</link>
     <description>
     javascript fatigue:
@@ -14,11 +14,25 @@
     already in hand
     </description>
   </item>
-  <!-- <item>
-    <title>XML Tutorial</title>
-    <link>https://www.w3schools.com/xml</link>
-    <description>New XML tutorial on W3Schools</description>
-  </item> -->
+  <item>
+    <title>AMP Notes (deprecated)</title>
+    <link>https://amp.dev/</link>
+    <description>
+    1. Never Stop the Content
+
+    2. Asset Independent Layouts
+
+    3. Inline Sizebound CSS
+
+    4. Efficient Font Triggers
+
+    5. Minimize Style Layout Recalculations
+
+    6. GPU Accelerated animations only
+
+    7. Prioritize Resource loading
+    </description>
+  </item>
 </channel>
 
 </rss>
