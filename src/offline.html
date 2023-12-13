@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Morgan Murrah - Offline Software Developer</title>
+    <title>Morgan Murrah - Software Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
         LUX=function(){function n(){return Date.now?Date.now():+new Date}var r,e=n(),t=window.performance||{},a=t.timing||{navigationStart:(null===(r=window.LUX)||void 0===r?void 0:r.ns)||e};function o(){return t.now?t.now():n()-a.navigationStart}LUX={ac:[],addData:function(n,r){return LUX.cmd(["addData",n,r])},cmd:function(n){return LUX.ac.push(n)},init:function(){return LUX.cmd(["init"])},mark:function(){for(var n=[],r=0;r<arguments.length;r++)n[r]=arguments[r];if(t.mark)return t.mark.apply(t,n);var e=n[0],a=n[1]||{};void 0===a.startTime&&(a.startTime=o());LUX.cmd(["mark",e,a])},markLoadTime:function(){return LUX.cmd(["markLoadTime",o()])},measure:function(){for(var n=[],r=0;r<arguments.length;r++)n[r]=arguments[r];if(t.measure)return t.measure.apply(t,n);var e,a=n[0],i=n[1],u=n[2];e="object"==typeof i?n[1]:{start:i,end:u};e.duration||e.end||(e.end=o());LUX.cmd(["measure",a,e])},send:function(){return LUX.cmd(["send"])},ns:e};var i=LUX;if(window.LUX_ae=[],window.addEventListener("error",(function(n){window.LUX_ae.push(n)})),window.LUX_al=[],"function"==typeof PerformanceObserver&&"function"==typeof PerformanceLongTaskTiming){var u=new PerformanceObserver((function(n){for(var r=n.getEntries(),e=0;e<r.length;e++)window.LUX_al.push(r[e])}));try{u.observe({type:"longtask"})}catch(n){}}return i}(); 
     </script>
     <script src="https://cdn.speedcurve.com/js/lux.js?id=4369645830" async defer crossorigin="anonymous"></script>
+    <script defer src="js/htmx.min.js"></script>
     <meta name="description" content="Morgan Murrah's website">
     <meta name="keywords" content="HTML, CSS">
     <meta name="author" content="Morgan Murrah">
@@ -439,7 +440,7 @@
     <meta property="og:url" content="https://www.morganwebdev.com" />
     <meta property="og:description" content="Morgan's simple website with hyperlinks" />
   </head>
-  <body hx-ext="preload">
+  <body>
     <div id="app">
       <div id="mobile-query" class="marvel-device htc-one">
   
@@ -452,7 +453,7 @@
               <div itemscope itemtype="http://schema.org/Person" class="h-card" rel="me">
   
                 <p title="I am an American New Zealander" lang="mi">Greetings to you all, tēnā koutou 🇳🇿 </p>
-                <h1>My name is Morgan, this is my offline website.</h1>
+                <h1>My name is Morgan and this is my website.</h1>
                 <h2 class="p-note"><span itemprop="jobTitle">Development focused on the web</span></h2>
   
                   <!--Row 1-->
@@ -540,18 +541,14 @@
                   <!--Row 2-->
   
                   <div class="row" role="group">
-                      <article class="icon"><a href="https://pinboard.in" itemprop="sameAs"
-                                           rel="me" class="u-url">
-                          <figure>
-                            <svg xmlns="http://www.w3.org/2000/svg"
-                            aria-label="Pinboard" role="img"
-                            viewBox="0 0 512 512"><path
-                            d="m0 0H512V512H0"
-                            fill="#182ef5"/><path fill="#fff" d="M182 56L56 185l57-3 102 126-12 68 75-77L456 456 300 281l78-83L303 216 182 105"/></svg>
-                              <figcaption >Archivist</figcaption>
-                          </figure>
-                      </a>
-                      </article>
+                    <article class="icon"><a href="https://hypermedia.netlify.app/">
+                        <figure>
+                            <svg xmlns="http://www.w3.org/2000/svg" aria-label="HTMX" role="img" viewBox="0 0 512 512"><text  x="0" y="375.5" style='max-width: 62px; background-color:red;font-weight:bold;fill:#f5f5f5;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;font-size:330px;'>&lt;<tspan fill="#3465a4">/</tspan>&gt;</text></svg>
+
+                            <figcaption >Hypermedia</figcaption>
+                        </figure>
+                    </a>
+                    </article>
   
                       <article class="icon">
                           <a href="https://en.wikipedia.org/wiki/American_New_Zealanders">
@@ -614,14 +611,14 @@
                           </figure>
                       </a></article>
   
-                      <article class="icon"><a href="https://www.morganwebdev.org/index.xml">
+                      <article class="icon"><a href="/feed.rss">
                           <figure>
                             <svg xmlns="http://www.w3.org/2000/svg"
                             aria-label="RSS" role="img"
                             viewBox="0 0 512 512"><path
                             d="m0 0H512V512H0"
                             fill="#f80"/><path fill="#fff" d="m109 271A132 133 0 01241 403h60A192 193 0 00109 211v-54A246 247 0 01355 403h60A306 307 0 00109 97m35 235a35 35 0 102 0"/></svg>
-                              <figcaption >RSS</figcaption>
+                              <figcaption >RSS only content</figcaption>
                           </figure>
                       </a></article>
   
@@ -792,7 +789,5 @@
             // favDialog.close(selectEl.value); // Have to send the select box value here.
             });
       </script>
-      <!-- <script src="https://unpkg.com/htmx.org@1.9.9"></script>
-      <script src="https://unpkg.com/htmx.org/dist/ext/preload.js"></script> -->
   </body>
 </html>

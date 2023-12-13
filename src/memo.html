@@ -1,0 +1,64 @@
+
+<!doctype html>
+<html class="no-js" lang="en-nz">
+
+<head>
+  <meta charset="utf-8">
+  <title>A memo</title>
+  <meta name="description" content="some thoughts on the web">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="A collection of thoughts on the web">
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://rsms.me/">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
+  <style>
+    :root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+    }
+    @supports (font-variation-settings: normal) {
+    :root { font-family: InterVariable, sans-serif; }
+    }
+    .main-column {
+      width: 70%;
+      margin: 0 auto;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 20px;
+      color: #3a3a3a;
+    }
+    .post {
+      margin: 30px 0 10px 0  ;
+    }
+  </style>
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <section class="main-column">
+    <header><h1>A Memo</h1></header>
+
+    <div class="post">
+      <h3>A simple Robots.txt</h3>
+      <code><pre>
+        User-agent: GPTBot
+        Disallow: /
+        User-agent: ChatGPT-User
+        Disallow: /
+        User-agent: Google-Extended
+        Disallow: /
+        User-agent: CCBot
+        Disallow: / 
+      </pre>     
+      </code>
+
+    <footer><h2>An End</h2></footer>
+
+  </section>
+</body>
+
+</html>
