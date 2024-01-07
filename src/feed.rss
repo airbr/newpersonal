@@ -5,6 +5,13 @@
   <title>Morgan Murrah's website - some RSS only content</title>
   <link>https://www.morganwebdev.com</link>
   <description>I am posting on the world wide web</description>
+    <item>
+    <title>The Rolls Royce of Validators</title>
+    <link>https://validator.w3.org/</link>
+    <description>
+    HTML done well
+    </description>
+  </item>
   <item>
     <title>A haiku from htmx</title>
     <link>https://htmx.org/</link>
