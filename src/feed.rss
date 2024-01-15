@@ -6,6 +6,13 @@
   <link>https://www.morganwebdev.com</link>
   <description>I am posting on the world wide web</description>
     <item>
+    <title>Hello from me!</title>
+    <link>https://morganwebdeb.org/</link>
+    <description>
+    My name is Morgan and I have a web log
+    </description>
+  </item>
+    <item>
     <title>The Rolls Royce of Validators</title>
     <link>https://validator.w3.org/</link>
     <description>
@@ -22,7 +29,7 @@
     </description>
   </item>
   <item>
-    <title>AMP Notes (deprecated)</title>
+    <title>AMP Notes</title>
     <link>https://amp.dev/</link>
     <description>
     1. Never Stop the Content

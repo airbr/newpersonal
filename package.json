@@ -1,7 +1,7 @@
 {
   "name": "morgan-murrah",
-  "version": "8.1.0",
-  "description": "A personal website, 100's on Lighthouse score, WCAG tested",
+  "version": "8.2.0",
+  "description": "A personal website, 100's on Lighthouse score, testing for WCAG standards",
   "author": "Morgan Murrah <morgan@morganwebdev.com>",
   "private": true,
   "scripts": {
