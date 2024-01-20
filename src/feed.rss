@@ -7,16 +7,16 @@
   <description>I am posting on the world wide web</description>
     <item>
     <title>Hello from me!</title>
-    <link>https://morganwebdeb.org/</link>
+    <link>https://morganwebdev.org/</link>
     <description>
-    My name is Morgan and I have a web log
+    I have a web log (blog)
     </description>
   </item>
     <item>
     <title>The Rolls Royce of Validators</title>
     <link>https://validator.w3.org/</link>
     <description>
-    HTML done well
+    HTML done well with this tool!
     </description>
   </item>
   <item>
